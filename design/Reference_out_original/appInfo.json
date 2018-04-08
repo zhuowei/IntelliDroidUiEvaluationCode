@@ -1,0 +1,75 @@
+{
+  "packageName": "ca.utoronto.intellidroid.guieval.listenertypesapp",
+  "mainActivity": "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity",
+  "callPaths": {
+    "0": {
+      "startMethod": "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity.buttonXmlClicked(Landroid/view/View;)V",
+      "targetMethod": "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity.logInfo(Ljava/lang/String;)V",
+      "eventChain": [
+        {
+          "start": "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity.buttonXmlClicked(Landroid/view/View;)V",
+          "target": "invokestatic \u003c Application, Lca/utoronto/intellidroid/guieval/listenertypesapp/MainActivity, logInfo(Ljava/lang/String;)V \u003e@5",
+          "type": "ui",
+          "activities": [
+            "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity"
+          ],
+          "listener": "android.view.View$1",
+          "listenerMethod": "buttonXmlClicked",
+          "uiType": "onClick"
+        }
+      ]
+    },
+    "1": {
+      "startMethod": "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity$1.onClick(Landroid/view/View;)V",
+      "targetMethod": "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity.logInfo(Ljava/lang/String;)V",
+      "eventChain": [
+        {
+          "start": "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/widget/Button, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@49",
+          "type": "activity",
+          "component": "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity"
+        },
+        {
+          "start": "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity$1.onClick(Landroid/view/View;)V",
+          "target": "invokestatic \u003c Application, Lca/utoronto/intellidroid/guieval/listenertypesapp/MainActivity, logInfo(Ljava/lang/String;)V \u003e@5",
+          "type": "ui",
+          "activities": [
+            "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity"
+          ],
+          "listener": "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity$1",
+          "listenerMethod": "onClick",
+          "uiType": "onClick"
+        }
+      ]
+    },
+    "2": {
+      "startMethod": "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity$2.onClick(Landroid/view/View;)V",
+      "targetMethod": "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity.logInfo(Ljava/lang/String;)V",
+      "eventChain": [
+        {
+          "start": "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/widget/Button, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@87",
+          "type": "activity",
+          "component": "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity"
+        },
+        {
+          "start": "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity$2.onClick(Landroid/view/View;)V",
+          "target": "invokestatic \u003c Application, Lca/utoronto/intellidroid/guieval/listenertypesapp/MainActivity, logInfo(Ljava/lang/String;)V \u003e@18",
+          "type": "ui",
+          "activities": [
+            "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity"
+          ],
+          "listener": "ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity$2",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints2_0.py",
+          "variables": {
+            "\u003cInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    }
+  }
+}
