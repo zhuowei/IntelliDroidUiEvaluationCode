@@ -1,0 +1,30 @@
+{
+  "packageName": "ca.utoronto.intellidroid.guieval.manybuttonsapp",
+  "mainActivity": "ca.utoronto.intellidroid.guieval.manybuttonsapp.MainActivity",
+  "callPaths": {
+    "0": {
+      "startMethod": "ca.utoronto.intellidroid.guieval.manybuttonsapp.MainActivity.buttonClicked(Landroid/view/View;)V",
+      "targetMethod": "ca.utoronto.intellidroid.guieval.manybuttonsapp.MainActivity.crashApp()V",
+      "eventChain": [
+        {
+          "start": "ca.utoronto.intellidroid.guieval.manybuttonsapp.MainActivity.buttonClicked(Landroid/view/View;)V",
+          "target": "invokestatic \u003c Application, Lca/utoronto/intellidroid/guieval/manybuttonsapp/MainActivity, crashApp()V \u003e@14",
+          "type": "ui",
+          "activities": [
+            "ca.utoronto.intellidroid.guieval.manybuttonsapp.MainActivity"
+          ],
+          "listener": "android.view.View$1",
+          "listenerMethod": "buttonClicked",
+          "uiType": "onClick",
+          "viewId": 2130968611,
+          "constraintsFile": "constraints0_0.py",
+          "variables": {
+            "\u003cInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    }
+  }
+}
