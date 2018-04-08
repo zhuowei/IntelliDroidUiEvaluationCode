@@ -1,0 +1,4 @@
+# startActivity
+<android.content.Context.startActivity(Landroid/content/Intent;)V>
+<android.app.Activity.startActivity(Landroid/content/Intent;)V>
+<android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V>

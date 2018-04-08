@@ -1,0 +1,4 @@
+#!/bin/sh
+# wrapper to launch IntelliDroid without Gradle and with 3GB heap.
+# copy to AppAnalysis/
+exec java -Xms3G -Xmx3G -jar "$(dirname $0)/build/libs/IntelliDroidAppAnalysis-all.jar" $@

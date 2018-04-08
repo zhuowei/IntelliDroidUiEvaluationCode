@@ -1,0 +1,2 @@
+<ca.utoronto.intellidroid.guieval.listenertypesapp.MainActivity.logInfo(Ljava/lang/String;)V>
+
