@@ -14,7 +14,8 @@ Use an API19 emulator (Sapienz needs it, we use it so we can compare)
 
 (todo: setup)
 
-Todo.
+`./installDynamic.sh`
+`time ./runDynamicOnManyButtons.sh`
 
 ### Using Sapienz:
 
