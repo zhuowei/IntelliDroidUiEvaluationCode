@@ -6,7 +6,7 @@ Check out and build GUI branch, then
 
 `./runStaticOnManyButtons.sh`
 
-time: On i5-4210Y
+time: On i5-4210Y, Ubuntu 14.04
 
 ```
 real	0m42.745s
@@ -25,6 +25,8 @@ I'm using the API19 Google APIs x86 emulator, with the default Nexus 5 config.
 
 `./installDynamic.sh`
 `time ./runDynamicOnManyButtons.sh`
+
+time: on i7-5500U, Ubuntu 16.04
 
 ```
 time ./runDynamicOnManyButtons.sh 
