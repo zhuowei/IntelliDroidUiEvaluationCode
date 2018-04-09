@@ -26,6 +26,22 @@ I'm using the API19 Google APIs x86 emulator, with the default Nexus 5 config.
 `./installDynamic.sh`
 `time ./runDynamicOnManyButtons.sh`
 
+```
+time ./runDynamicOnManyButtons.sh 
+Looking for Android device and IntelliDroidService...
+Connected to IntelliDroidService
+WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
+WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
+> > {'extras': 'listenerFieldName:mOnClickListener inListenerInfo:true', 'type': u'onClick', 'input:id': '2130968612'}
+WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
+WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
+WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
+> 
+real	0m8.204s
+user	0m0.304s
+sys	0m0.071s
+```
+
 ### Using Sapienz:
 
 todo:
