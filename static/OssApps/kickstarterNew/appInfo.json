@@ -1,0 +1,338 @@
+{
+  "packageName": "com.kickstarter.kickstarter",
+  "mainActivity": "com.kickstarter.ui.activities.DiscoveryActivity",
+  "callPaths": {
+    "0": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.manageProjectNotifications()V",
+      "targetMethod": "com.kickstarter.libs.BaseActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.manageProjectNotifications()V",
+          "target": "invokevirtual \u003c Application, Lcom/kickstarter/libs/BaseActivity, startActivity(Landroid/content/Intent;)V \u003e@3",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.DiscoveryActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "manageProjectNotifications",
+          "uiType": "onClick",
+          "viewId": 2131821129
+        }
+      ]
+    },
+    "1": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.privacyPolicyClick()V",
+      "targetMethod": "com.kickstarter.libs.BaseActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.privacyPolicyClick()V",
+          "target": "invokevirtual \u003c Application, Lcom/kickstarter/libs/BaseActivity, startActivity(Landroid/content/Intent;)V \u003e@3",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.DiscoveryActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "privacyPolicyClick",
+          "uiType": "onClick",
+          "viewId": 2131821144
+        }
+      ]
+    },
+    "2": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.faqClick()V",
+      "targetMethod": "com.kickstarter.libs.BaseActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.faqClick()V",
+          "target": "invokevirtual \u003c Application, Lcom/kickstarter/libs/BaseActivity, startActivity(Landroid/content/Intent;)V \u003e@3",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.DiscoveryActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "faqClick",
+          "uiType": "onClick",
+          "viewId": 2131821140
+        }
+      ]
+    },
+    "3": {
+      "startMethod": "com.kickstarter.ui.activities.CheckoutActivity.backer101Clicked()V",
+      "targetMethod": "com.kickstarter.libs.BaseActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.CheckoutActivity.backer101Clicked()V",
+          "target": "invokevirtual \u003c Application, Lcom/kickstarter/libs/BaseActivity, startActivity(Landroid/content/Intent;)V \u003e@3",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.DiscoveryActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.CheckoutActivity",
+          "listenerMethod": "backer101Clicked",
+          "uiType": "onClick",
+          "viewId": 2131820772
+        }
+      ]
+    },
+    "4": {
+      "startMethod": "com.kickstarter.ui.activities.LoginActivity.forgotYourPasswordTextViewClick()V",
+      "targetMethod": "com.kickstarter.libs.BaseActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.LoginActivity.forgotYourPasswordTextViewClick()V",
+          "target": "invokevirtual \u003c Application, Lcom/kickstarter/libs/BaseActivity, startActivity(Landroid/content/Intent;)V \u003e@3",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.DiscoveryActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.LoginActivity",
+          "listenerMethod": "forgotYourPasswordTextViewClick",
+          "uiType": "onClick",
+          "viewId": 2131820931
+        }
+      ]
+    },
+    "5": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.cookiePolicyClick()V",
+      "targetMethod": "com.kickstarter.libs.BaseActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.cookiePolicyClick()V",
+          "target": "invokevirtual \u003c Application, Lcom/kickstarter/libs/BaseActivity, startActivity(Landroid/content/Intent;)V \u003e@3",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.DiscoveryActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "cookiePolicyClick",
+          "uiType": "onClick",
+          "viewId": 2131821145
+        }
+      ]
+    },
+    "6": {
+      "startMethod": "com.kickstarter.ui.activities.DownloadBetaActivity.openDownloadsOnClick(Landroid/view/View;)V",
+      "targetMethod": "com.kickstarter.ui.activities.DownloadBetaActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.DownloadBetaActivity.openDownloadsOnClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Lcom/kickstarter/ui/activities/DownloadBetaActivity, startActivity(Landroid/content/Intent;)V \u003e@15",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.DiscoveryActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.DownloadBetaActivity",
+          "listenerMethod": "openDownloadsOnClick",
+          "uiType": "onClick",
+          "viewId": 2131820898
+        }
+      ]
+    },
+    "7": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.rateUsClick()V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.rateUsClick()V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@132",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.DiscoveryActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "rateUsClick",
+          "uiType": "onClick",
+          "viewId": 2131821146
+        }
+      ]
+    },
+    "8": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.rateUsClick()V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.rateUsClick()V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@73",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.DiscoveryActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "rateUsClick",
+          "uiType": "onClick",
+          "viewId": 2131821146
+        }
+      ]
+    },
+    "9": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.howKickstarterWorksClick()V",
+      "targetMethod": "com.kickstarter.libs.BaseActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.howKickstarterWorksClick()V",
+          "target": "invokevirtual \u003c Application, Lcom/kickstarter/libs/BaseActivity, startActivity(Landroid/content/Intent;)V \u003e@3",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.DiscoveryActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "howKickstarterWorksClick",
+          "uiType": "onClick",
+          "viewId": 2131821142
+        }
+      ]
+    },
+    "10": {
+      "startMethod": "com.kickstarter.ui.activities.ThanksActivity.closeButtonClick()V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.ThanksActivity.closeButtonClick()V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@25",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.DiscoveryActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.ThanksActivity",
+          "listenerMethod": "closeButtonClick",
+          "uiType": "onClick",
+          "viewId": 2131821160
+        }
+      ]
+    },
+    "11": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.termsOfUseClick()V",
+      "targetMethod": "com.kickstarter.libs.BaseActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.termsOfUseClick()V",
+          "target": "invokevirtual \u003c Application, Lcom/kickstarter/libs/BaseActivity, startActivity(Landroid/content/Intent;)V \u003e@3",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.DiscoveryActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "termsOfUseClick",
+          "uiType": "onClick",
+          "viewId": 2131821143
+        }
+      ]
+    },
+    "12": {
+      "startMethod": "com.jakewharton.processphoenix.ProcessPhoenix.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "com.jakewharton.processphoenix.ProcessPhoenix.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.jakewharton.processphoenix.ProcessPhoenix.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/jakewharton/processphoenix/ProcessPhoenix, startActivity(Landroid/content/Intent;)V \u003e@29",
+          "type": "activity",
+          "component": "com.jakewharton.processphoenix.ProcessPhoenix"
+        }
+      ]
+    },
+    "13": {
+      "startMethod": "android.support.v7.widget.ActivityChooserView$Callbacks.onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "android.support.v7.widget.ActivityChooserView$Callbacks.onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@229",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.DiscoveryActivity"
+          ],
+          "listener": "android.support.v7.widget.ActivityChooserView$Callbacks",
+          "listenerMethod": "onItemClick",
+          "uiType": "onItemClick",
+          "constraintsFile": "constraints13_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e.getAdapter().getItemViewType()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "14": {
+      "startMethod": "android.support.v7.app.AlertController$AlertParams$3.onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V",
+      "targetMethod": "com.kickstarter.libs.BaseActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "android.support.v7.app.AlertController$AlertParams$3.onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V",
+          "target": "invokevirtual \u003c Application, Lcom/kickstarter/libs/BaseActivity, startActivity(Landroid/content/Intent;)V \u003e@3",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.DiscoveryActivity"
+          ],
+          "listener": "android.support.v7.app.AlertController$AlertParams$3",
+          "listenerMethod": "onItemClick",
+          "uiType": "onItemClick",
+          "constraintsFile": "constraints14_0.py",
+          "variables": {
+            "\u003cInput3\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "15": {
+      "startMethod": "android.support.v7.widget.ActivityChooserView$Callbacks.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "android.support.v7.widget.ActivityChooserView$Callbacks.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@140",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.DiscoveryActivity"
+          ],
+          "listener": "android.support.v7.widget.ActivityChooserView$Callbacks",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints15_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "16": {
+      "startMethod": "com.google.android.gms.dynamic.zza$5.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gms.maps.StreetViewPanoramaFragment.onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
+          "target": "invokevirtual \u003c Application, Landroid/widget/Button, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@227",
+          "type": "",
+          "constraintsFile": "constraints16_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.gms.maps.StreetViewPanoramaFragment.onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
+          "target": "PC@8",
+          "type": "",
+          "constraintsFile": "constraints16_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.gms.dynamic.zza$5.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@13",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.DiscoveryActivity"
+          ],
+          "listener": "com.google.android.gms.dynamic.zza$5",
+          "listenerMethod": "onClick",
+          "uiType": "onClick"
+        }
+      ]
+    }
+  }
+}

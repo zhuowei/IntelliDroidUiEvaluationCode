@@ -1,0 +1,1278 @@
+{
+  "packageName": "com.fsck.k9",
+  "mainActivity": "com.fsck.k9.activity.MessageList",
+  "callPaths": {
+    "0": {
+      "startMethod": "com.fsck.k9.activity.MessageCompose.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "com.fsck.k9.activity.MessageCompose.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.MessageCompose.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@283",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.MessageCompose",
+          "constraintsFile": "constraints0_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.activity.MessageCompose.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@232",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.MessageCompose"
+        },
+        {
+          "start": "com.fsck.k9.activity.MessageCompose.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/fsck/k9/activity/MessageCompose, startActivity(Landroid/content/Intent;)V \u003e@358",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.MessageCompose",
+          "constraintsFile": "constraints0_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "1": {
+      "startMethod": "com.fsck.k9.activity.MessageCompose.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.MessageCompose.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@56",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.MessageCompose"
+        }
+      ]
+    },
+    "2": {
+      "startMethod": "com.fsck.k9.activity.FolderList.onResume()V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.FolderList.onResume()V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@40",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.FolderList",
+          "constraintsFile": "constraints2_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "3": {
+      "startMethod": "com.fsck.k9.activity.Accounts.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "com.fsck.k9.activity.Accounts.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.Accounts.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/fsck/k9/activity/Accounts, startActivityForResult(Landroid/content/Intent;I)V \u003e@88",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.Accounts"
+        }
+      ]
+    },
+    "4": {
+      "startMethod": "com.fsck.k9.activity.Accounts.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.Accounts.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@56",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.Accounts"
+        }
+      ]
+    },
+    "5": {
+      "startMethod": "com.fsck.k9.activity.Accounts.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.Accounts.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@12",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.Accounts",
+          "constraintsFile": "constraints5_0.py",
+          "variables": {},
+          "stringMap": {
+            "7000": "-NONE-"
+          },
+          "strings": {
+            "IAAv2": ""
+          }
+        }
+      ]
+    },
+    "6": {
+      "startMethod": "com.fsck.k9.activity.Accounts.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.Accounts.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@15",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.Accounts"
+        }
+      ]
+    },
+    "7": {
+      "startMethod": "com.fsck.k9.activity.Accounts.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.Accounts.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@16",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.Accounts"
+        }
+      ]
+    },
+    "8": {
+      "startMethod": "com.fsck.k9.activity.UpgradeDatabases.onResume()V",
+      "targetMethod": "com.fsck.k9.activity.UpgradeDatabases.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.UpgradeDatabases.onResume()V",
+          "target": "invokevirtual \u003c Application, Lcom/fsck/k9/activity/UpgradeDatabases, startActivity(Landroid/content/Intent;)V \u003e@12",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.UpgradeDatabases"
+        }
+      ]
+    },
+    "9": {
+      "startMethod": "com.fsck.k9.activity.FolderList.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.FolderList.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@56",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.FolderList"
+        }
+      ]
+    },
+    "10": {
+      "startMethod": "com.fsck.k9.activity.FolderList.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.FolderList.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@38",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.FolderList"
+        },
+        {
+          "start": "com.fsck.k9.activity.FolderList.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@15",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.FolderList",
+          "constraintsFile": "constraints10_0.py",
+          "variables": {},
+          "stringMap": {
+            "7000": "-NONE-"
+          },
+          "strings": {
+            "IAAv1": ""
+          }
+        }
+      ]
+    },
+    "11": {
+      "startMethod": "com.fsck.k9.activity.MessageList.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.MessageList.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@56",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.MessageList"
+        }
+      ]
+    },
+    "12": {
+      "startMethod": "com.fsck.k9.activity.MessageList.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.MessageList.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@252",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.MessageList"
+        },
+        {
+          "start": "com.fsck.k9.activity.MessageList.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@1108",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.MessageList",
+          "constraintsFile": "constraints12_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.activity.MessageList.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@23",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.MessageList"
+        },
+        {
+          "start": "com.fsck.k9.activity.MessageList.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@43",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.MessageList"
+        },
+        {
+          "start": "com.fsck.k9.activity.MessageList.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@42",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.MessageList",
+          "constraintsFile": "constraints12_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "13": {
+      "startMethod": "com.fsck.k9.activity.MessageList.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.MessageList.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@252",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.MessageList"
+        },
+        {
+          "start": "com.fsck.k9.activity.MessageList.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@623",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.MessageList",
+          "constraintsFile": "constraints13_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.activity.MessageList.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@671",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.MessageList",
+          "constraintsFile": "constraints13_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.activity.MessageList.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@335",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.MessageList",
+          "constraintsFile": "constraints13_2.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.activity.MessageList.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@40",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.MessageList",
+          "constraintsFile": "constraints13_3.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "14": {
+      "startMethod": "com.fsck.k9.activity.MessageList.onResume()V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.MessageList.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@671",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.MessageList",
+          "constraintsFile": "constraints14_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.activity.MessageList.onResume()V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@40",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.MessageList",
+          "constraintsFile": "constraints14_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "15": {
+      "startMethod": "com.fsck.k9.activity.setup.AccountSetupOutgoing.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSetupOutgoing.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@54",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.setup.AccountSetupOutgoing"
+        }
+      ]
+    },
+    "16": {
+      "startMethod": "com.fsck.k9.activity.UpgradeDatabases.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "com.fsck.k9.activity.UpgradeDatabases.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.UpgradeDatabases.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/fsck/k9/activity/UpgradeDatabases, startActivity(Landroid/content/Intent;)V \u003e@12",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.UpgradeDatabases"
+        }
+      ]
+    },
+    "17": {
+      "startMethod": "com.fsck.k9.activity.FolderList$2.onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.FolderList.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/widget/ListView, setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V \u003e@138",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.FolderList"
+        },
+        {
+          "start": "com.fsck.k9.activity.FolderList$2.onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@15",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.activity.FolderList$2",
+          "listenerMethod": "onItemClick",
+          "uiType": "onItemClick"
+        }
+      ]
+    },
+    "18": {
+      "startMethod": "com.fsck.k9.activity.Accounts.onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.Accounts.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/widget/ListView, setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V \u003e@282",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.Accounts"
+        },
+        {
+          "start": "com.fsck.k9.activity.Accounts.onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@12",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.activity.Accounts",
+          "listenerMethod": "onItemClick",
+          "uiType": "onItemClick",
+          "constraintsFile": "constraints18_0.py",
+          "variables": {
+            "\u003cInput1\u003e.getItemAtPosition().isAvailable()": "IAAv1",
+            "\u003cInput1\u003e.getItemAtPosition().getAutoExpandFolderName()": "IAAv2",
+            "\u003cInput1\u003e.getItemAtPosition().isEnabled()": "IAAv0"
+          },
+          "stringMap": {
+            "7000": "-NONE-"
+          },
+          "strings": {
+            "IAAv2": ""
+          }
+        }
+      ]
+    },
+    "19": {
+      "startMethod": "com.fsck.k9.activity.Accounts.onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.Accounts.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/widget/ListView, setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V \u003e@282",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.Accounts"
+        },
+        {
+          "start": "com.fsck.k9.activity.Accounts.onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@15",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.activity.Accounts",
+          "listenerMethod": "onItemClick",
+          "uiType": "onItemClick"
+        }
+      ]
+    },
+    "20": {
+      "startMethod": "com.fsck.k9.activity.setup.AccountSettings$29.onPreferenceClick(Landroid/preference/Preference;)Z",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSettings.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/preference/Preference, setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V \u003e@5641",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.setup.AccountSettings",
+          "constraintsFile": "constraints20_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSettings$29.onPreferenceClick(Landroid/preference/Preference;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@9",
+          "type": ""
+        }
+      ]
+    },
+    "21": {
+      "startMethod": "com.fsck.k9.activity.setup.Prefs$6.onPreferenceClick(Landroid/preference/Preference;)Z",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.setup.Prefs.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/preference/Preference, setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V \u003e@3570",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.setup.Prefs"
+        },
+        {
+          "start": "com.fsck.k9.activity.setup.Prefs$6.onPreferenceClick(Landroid/preference/Preference;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@142",
+          "type": ""
+        }
+      ]
+    },
+    "22": {
+      "startMethod": "com.fsck.k9.activity.UnreadWidgetConfiguration$1.onPreferenceClick(Landroid/preference/Preference;)Z",
+      "targetMethod": "com.fsck.k9.activity.UnreadWidgetConfiguration.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.UnreadWidgetConfiguration.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/preference/Preference, setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V \u003e@128",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.UnreadWidgetConfiguration",
+          "constraintsFile": "constraints22_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.activity.UnreadWidgetConfiguration$1.onPreferenceClick(Landroid/preference/Preference;)Z",
+          "target": "invokevirtual \u003c Application, Lcom/fsck/k9/activity/UnreadWidgetConfiguration, startActivityForResult(Landroid/content/Intent;I)V \u003e@33",
+          "type": ""
+        }
+      ]
+    },
+    "23": {
+      "startMethod": "com.fsck.k9.activity.setup.Prefs$1.onPreferenceClick(Landroid/preference/Preference;)Z",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.setup.Prefs.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/preference/Preference, setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V \u003e@575",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.setup.Prefs"
+        },
+        {
+          "start": "com.fsck.k9.activity.setup.Prefs$1.onPreferenceClick(Landroid/preference/Preference;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@16",
+          "type": ""
+        }
+      ]
+    },
+    "24": {
+      "startMethod": "com.fsck.k9.activity.setup.AccountSettings$27.onPreferenceClick(Landroid/preference/Preference;)Z",
+      "targetMethod": "com.fsck.k9.activity.setup.AccountSettings.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSettings.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/preference/Preference, setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V \u003e@5564",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.setup.AccountSettings",
+          "constraintsFile": "constraints24_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSettings$27.onPreferenceClick(Landroid/preference/Preference;)Z",
+          "target": "invokevirtual \u003c Application, Lcom/fsck/k9/activity/setup/AccountSettings, startActivityForResult(Landroid/content/Intent;I)V \u003e@41",
+          "type": ""
+        }
+      ]
+    },
+    "25": {
+      "startMethod": "com.fsck.k9.activity.setup.AccountSettings$28.onPreferenceClick(Landroid/preference/Preference;)Z",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSettings.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/preference/Preference, setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V \u003e@5603",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.setup.AccountSettings",
+          "constraintsFile": "constraints25_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSettings$28.onPreferenceClick(Landroid/preference/Preference;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@9",
+          "type": ""
+        }
+      ]
+    },
+    "26": {
+      "startMethod": "com.fsck.k9.activity.setup.AccountSettings$26.onPreferenceClick(Landroid/preference/Preference;)Z",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSettings.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/preference/Preference, setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V \u003e@5525",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.setup.AccountSettings",
+          "constraintsFile": "constraints26_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSettings$26.onPreferenceClick(Landroid/preference/Preference;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@42",
+          "type": ""
+        }
+      ]
+    },
+    "27": {
+      "startMethod": "com.fsck.k9.activity.UnreadWidgetConfiguration$3.onPreferenceClick(Landroid/preference/Preference;)Z",
+      "targetMethod": "com.fsck.k9.activity.UnreadWidgetConfiguration.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.UnreadWidgetConfiguration.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/preference/Preference, setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V \u003e@219",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.UnreadWidgetConfiguration",
+          "constraintsFile": "constraints27_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.activity.UnreadWidgetConfiguration$3.onPreferenceClick(Landroid/preference/Preference;)Z",
+          "target": "invokevirtual \u003c Application, Lcom/fsck/k9/activity/UnreadWidgetConfiguration, startActivityForResult(Landroid/content/Intent;I)V \u003e@72",
+          "type": ""
+        }
+      ]
+    },
+    "28": {
+      "startMethod": "com.fsck.k9.activity.FolderList.onKeyDown(ILandroid/view/KeyEvent;)Z",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.FolderList.onKeyDown(ILandroid/view/KeyEvent;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@40",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.activity.FolderList",
+          "listenerMethod": "onKeyDown",
+          "uiType": "onKeyDown",
+          "constraintsFile": "constraints28_0.py",
+          "variables": {
+            "\u003cInput1\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "29": {
+      "startMethod": "com.fsck.k9.activity.FolderList.onKeyDown(ILandroid/view/KeyEvent;)Z",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.FolderList.onKeyDown(ILandroid/view/KeyEvent;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@34",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.activity.FolderList",
+          "listenerMethod": "onKeyDown",
+          "uiType": "onKeyDown",
+          "constraintsFile": "constraints29_0.py",
+          "variables": {
+            "\u003cInput1\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "30": {
+      "startMethod": "com.fsck.k9.activity.setup.OpenPgpAppSelectDialog$OpenPgpAppSelectFragment$2.onClick(Landroid/content/DialogInterface;I)V",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.setup.OpenPgpAppSelectDialog.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/AlertDialog$Builder, setSingleChoiceItems(Landroid/widget/ListAdapter;ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder; \u003e@98",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.setup.OpenPgpAppSelectDialog",
+          "constraintsFile": "constraints30_0.py",
+          "variables": {
+            "\u003cInput1\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.activity.setup.OpenPgpAppSelectDialog$OpenPgpAppSelectFragment$2.onClick(Landroid/content/DialogInterface;I)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@60",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.activity.setup.OpenPgpAppSelectDialog$OpenPgpAppSelectFragment$2",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "inDialog": "true",
+          "constraintsFile": "constraints30_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "31": {
+      "startMethod": "org.openintents.openpgp.util.OpenPgpAppPreference$2.onClick(Landroid/content/DialogInterface;I)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "org.openintents.openpgp.util.OpenPgpAppPreference$2.onClick(Landroid/content/DialogInterface;I)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@60",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "org.openintents.openpgp.util.OpenPgpAppPreference$2",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "inDialog": "true",
+          "constraintsFile": "constraints31_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "32": {
+      "startMethod": "com.fsck.k9.activity.setup.AccountSetupNames.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSetupNames.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/widget/Button, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@103",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.setup.AccountSetupNames"
+        },
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSetupNames.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@40",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.setup.AccountSetupNames"
+          ],
+          "listener": "com.fsck.k9.activity.setup.AccountSetupNames",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints32_0.py",
+          "variables": {
+            "\u003cInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "33": {
+      "startMethod": "com.fsck.k9.activity.setup.WelcomeMessage.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.setup.WelcomeMessage.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/view/View, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@67",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.setup.WelcomeMessage"
+        },
+        {
+          "start": "com.fsck.k9.activity.setup.WelcomeMessage.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@27",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.setup.WelcomeMessage"
+          ],
+          "listener": "com.fsck.k9.activity.setup.WelcomeMessage",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints33_0.py",
+          "variables": {
+            "\u003cInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "34": {
+      "startMethod": "com.fsck.k9.activity.setup.WelcomeMessage.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.setup.WelcomeMessage.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/view/View, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@67",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.setup.WelcomeMessage"
+        },
+        {
+          "start": "com.fsck.k9.activity.setup.WelcomeMessage.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@16",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.setup.WelcomeMessage"
+          ],
+          "listener": "com.fsck.k9.activity.setup.WelcomeMessage",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints34_0.py",
+          "variables": {
+            "\u003cInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "35": {
+      "startMethod": "com.fsck.k9.activity.setup.AccountSetupBasics.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSetupBasics.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/widget/Button, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@156",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.setup.AccountSetupBasics"
+        },
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSetupBasics.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@49",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.setup.AccountSetupBasics"
+          ],
+          "listener": "com.fsck.k9.activity.setup.AccountSetupBasics",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints35_0.py",
+          "variables": {
+            "\u003cInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "36": {
+      "startMethod": "com.fsck.k9.activity.setup.AccountSetupBasics.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSetupBasics.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/widget/Button, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@156",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.setup.AccountSetupBasics"
+        },
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSetupBasics.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@54",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.setup.AccountSetupBasics"
+          ],
+          "listener": "com.fsck.k9.activity.setup.AccountSetupBasics",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints36_0.py",
+          "variables": {
+            "\u003cInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "37": {
+      "startMethod": "com.fsck.k9.activity.setup.AccountSetupOutgoing.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSetupOutgoing.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/widget/Button, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@466",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.setup.AccountSetupOutgoing"
+        },
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSetupOutgoing.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@54",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.setup.AccountSetupOutgoing"
+          ],
+          "listener": "com.fsck.k9.activity.setup.AccountSetupOutgoing",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints37_0.py",
+          "variables": {
+            "\u003cInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "38": {
+      "startMethod": "com.fsck.k9.activity.Accounts$AccountClickListener.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.Accounts$AccountClickListener.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@15",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.activity.Accounts$AccountClickListener",
+          "listenerMethod": "onClick",
+          "uiType": "onClick"
+        }
+      ]
+    },
+    "39": {
+      "startMethod": "com.fsck.k9.activity.setup.AccountSetupOptions.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSetupOptions.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/view/View, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@156",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.setup.AccountSetupOptions"
+        },
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSetupOptions.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@33",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.setup.AccountSetupOptions"
+          ],
+          "listener": "com.fsck.k9.activity.setup.AccountSetupOptions",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints39_0.py",
+          "variables": {
+            "\u003cInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "40": {
+      "startMethod": "com.fsck.k9.activity.Accounts$AccountsAdapter$2.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.Accounts$AccountsAdapter$2.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@12",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.activity.Accounts$AccountsAdapter$2",
+          "listenerMethod": "onClick",
+          "uiType": "onClick"
+        }
+      ]
+    },
+    "41": {
+      "startMethod": "com.fsck.k9.activity.setup.AccountSetupAccountType.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSetupAccountType.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/view/View, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@25",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.setup.AccountSetupAccountType"
+        },
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSetupAccountType.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@51",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.setup.AccountSetupAccountType"
+          ],
+          "listener": "com.fsck.k9.activity.setup.AccountSetupAccountType",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints41_0.py",
+          "variables": {
+            "\u003cInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "42": {
+      "startMethod": "com.fsck.k9.activity.setup.AccountSetupIncoming.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSetupIncoming.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/widget/Button, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@523",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.setup.AccountSetupIncoming"
+        },
+        {
+          "start": "com.fsck.k9.activity.setup.AccountSetupIncoming.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@54",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.setup.AccountSetupIncoming"
+          ],
+          "listener": "com.fsck.k9.activity.setup.AccountSetupIncoming",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints42_0.py",
+          "variables": {
+            "\u003cInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "43": {
+      "startMethod": "com.fsck.k9.activity.FolderList$FolderClickListener.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.FolderList$FolderClickListener.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@15",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.activity.FolderList$FolderClickListener",
+          "listenerMethod": "onClick",
+          "uiType": "onClick"
+        }
+      ]
+    },
+    "44": {
+      "startMethod": "com.fsck.k9.activity.UpgradeDatabases$UpgradeDatabaseBroadcastReceiver.onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "targetMethod": "com.fsck.k9.activity.UpgradeDatabases.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.activity.UpgradeDatabases.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokespecial \u003c Application, Landroid/content/BroadcastReceiver, \u003cinit\u003e()V \u003e@7",
+          "type": "activity",
+          "component": "com.fsck.k9.activity.UpgradeDatabases"
+        },
+        {
+          "start": "com.fsck.k9.activity.UpgradeDatabases$UpgradeDatabaseBroadcastReceiver.onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+          "target": "invokevirtual \u003c Application, Lcom/fsck/k9/activity/UpgradeDatabases, startActivity(Landroid/content/Intent;)V \u003e@12",
+          "type": "sms",
+          "constraintsFile": "constraints44_0.py",
+          "variables": {
+            "\u003cInput2\u003e.getAction()": "IAAv0"
+          },
+          "stringMap": {
+            "7000": "DatabaseUpgradeService.upgradeProgress",
+            "7001": "DatabaseUpgradeService.upgradeComplete"
+          },
+          "strings": {
+            "IAAv0": ""
+          }
+        }
+      ]
+    },
+    "45": {
+      "startMethod": "com.fsck.k9.ui.messageview.MessageContainerView$3.onMenuItemClick(Landroid/view/MenuItem;)Z",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.ui.messageview.MessageContainerView.onCreateContextMenu(Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V",
+          "target": "invokeinterface \u003c Application, Landroid/view/MenuItem, setOnMenuItemClickListener(Landroid/view/MenuItem$OnMenuItemClickListener;)Landroid/view/MenuItem; \u003e@174",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.ui.messageview.MessageContainerView",
+          "listenerMethod": "onCreateContextMenu",
+          "uiType": "onCreateContextMenu",
+          "constraintsFile": "constraints45_0.py",
+          "variables": {
+            "\u003cInput2\u003e.getHitTestResult().getType()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.ui.messageview.MessageContainerView$3.onMenuItemClick(Landroid/view/MenuItem;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@3",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.ui.messageview.MessageContainerView$3",
+          "listenerMethod": "onMenuItemClick",
+          "uiType": "onMenuItemClick",
+          "constraintsFile": "constraints45_1.py",
+          "variables": {
+            "\u003cInput1\u003e.getItemId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "46": {
+      "startMethod": "com.fsck.k9.ui.messageview.MessageContainerView$3.onMenuItemClick(Landroid/view/MenuItem;)Z",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.ui.messageview.MessageContainerView.onCreateContextMenu(Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V",
+          "target": "invokeinterface \u003c Application, Landroid/view/MenuItem, setOnMenuItemClickListener(Landroid/view/MenuItem$OnMenuItemClickListener;)Landroid/view/MenuItem; \u003e@174",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.ui.messageview.MessageContainerView",
+          "listenerMethod": "onCreateContextMenu",
+          "uiType": "onCreateContextMenu",
+          "constraintsFile": "constraints46_0.py",
+          "variables": {
+            "\u003cInput2\u003e.getHitTestResult().getType()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.ui.messageview.MessageContainerView$3.onMenuItemClick(Landroid/view/MenuItem;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@55",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.ui.messageview.MessageContainerView$3",
+          "listenerMethod": "onMenuItemClick",
+          "uiType": "onMenuItemClick",
+          "constraintsFile": "constraints46_1.py",
+          "variables": {
+            "\u003cInput1\u003e.getItemId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "47": {
+      "startMethod": "com.fsck.k9.ui.messageview.MessageContainerView$1.onMenuItemClick(Landroid/view/MenuItem;)Z",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.ui.messageview.MessageContainerView.onCreateContextMenu(Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V",
+          "target": "invokeinterface \u003c Application, Landroid/view/MenuItem, setOnMenuItemClickListener(Landroid/view/MenuItem$OnMenuItemClickListener;)Landroid/view/MenuItem; \u003e@370",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.ui.messageview.MessageContainerView",
+          "listenerMethod": "onCreateContextMenu",
+          "uiType": "onCreateContextMenu",
+          "constraintsFile": "constraints47_0.py",
+          "variables": {
+            "\u003cInput2\u003e.getHitTestResult().getType()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.ui.messageview.MessageContainerView$1.onMenuItemClick(Landroid/view/MenuItem;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@3",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.ui.messageview.MessageContainerView$1",
+          "listenerMethod": "onMenuItemClick",
+          "uiType": "onMenuItemClick",
+          "constraintsFile": "constraints47_1.py",
+          "variables": {
+            "\u003cInput1\u003e.getItemId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "48": {
+      "startMethod": "com.fsck.k9.ui.messageview.MessageContainerView$4.onMenuItemClick(Landroid/view/MenuItem;)Z",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.ui.messageview.MessageContainerView.onCreateContextMenu(Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V",
+          "target": "invokeinterface \u003c Application, Landroid/view/MenuItem, setOnMenuItemClickListener(Landroid/view/MenuItem$OnMenuItemClickListener;)Landroid/view/MenuItem; \u003e@858",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.ui.messageview.MessageContainerView",
+          "listenerMethod": "onCreateContextMenu",
+          "uiType": "onCreateContextMenu",
+          "constraintsFile": "constraints48_0.py",
+          "variables": {
+            "\u003cInput2\u003e.getHitTestResult().getType()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.ui.messageview.MessageContainerView$4.onMenuItemClick(Landroid/view/MenuItem;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@107",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.ui.messageview.MessageContainerView$4",
+          "listenerMethod": "onMenuItemClick",
+          "uiType": "onMenuItemClick",
+          "constraintsFile": "constraints48_1.py",
+          "variables": {
+            "\u003cInput1\u003e.getItemId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "49": {
+      "startMethod": "com.fsck.k9.ui.messageview.MessageContainerView$4.onMenuItemClick(Landroid/view/MenuItem;)Z",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.ui.messageview.MessageContainerView.onCreateContextMenu(Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V",
+          "target": "invokeinterface \u003c Application, Landroid/view/MenuItem, setOnMenuItemClickListener(Landroid/view/MenuItem$OnMenuItemClickListener;)Landroid/view/MenuItem; \u003e@858",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.ui.messageview.MessageContainerView",
+          "listenerMethod": "onCreateContextMenu",
+          "uiType": "onCreateContextMenu",
+          "constraintsFile": "constraints49_0.py",
+          "variables": {
+            "\u003cInput2\u003e.getHitTestResult().getType()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.ui.messageview.MessageContainerView$4.onMenuItemClick(Landroid/view/MenuItem;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@3",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.ui.messageview.MessageContainerView$4",
+          "listenerMethod": "onMenuItemClick",
+          "uiType": "onMenuItemClick",
+          "constraintsFile": "constraints49_1.py",
+          "variables": {
+            "\u003cInput1\u003e.getItemId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "50": {
+      "startMethod": "com.fsck.k9.ui.messageview.MessageContainerView$2.onMenuItemClick(Landroid/view/MenuItem;)Z",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.fsck.k9.ui.messageview.MessageContainerView.onCreateContextMenu(Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V",
+          "target": "invokeinterface \u003c Application, Landroid/view/MenuItem, setOnMenuItemClickListener(Landroid/view/MenuItem$OnMenuItemClickListener;)Landroid/view/MenuItem; \u003e@620",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.ui.messageview.MessageContainerView",
+          "listenerMethod": "onCreateContextMenu",
+          "uiType": "onCreateContextMenu",
+          "constraintsFile": "constraints50_0.py",
+          "variables": {
+            "\u003cInput2\u003e.getHitTestResult().getType()": "IAAv0",
+            "\u003cInput2\u003e.getHitTestResult().getExtra().parse()": "IAAv1"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.ui.messageview.MessageContainerView$2.\u003cinit\u003e(Lcom/fsck/k9/ui/messageview/MessageContainerView;ZLcom/fsck/k9/mailstore/AttachmentViewInfo;Landroid/net/Uri;)V",
+          "target": "PC@8",
+          "type": "",
+          "constraintsFile": "constraints50_1.py",
+          "variables": {
+            "\u003cInput2\u003e": "IAAv2",
+            "\u003cChainedInput1\u003e.getItemId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.fsck.k9.ui.messageview.MessageContainerView$2.onMenuItemClick(Landroid/view/MenuItem;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@3",
+          "type": "ui",
+          "activities": [
+            "com.fsck.k9.activity.MessageList"
+          ],
+          "listener": "com.fsck.k9.ui.messageview.MessageContainerView$2",
+          "listenerMethod": "onMenuItemClick",
+          "uiType": "onMenuItemClick",
+          "constraintsFile": "constraints50_2.py",
+          "variables": {
+            "\u003cChainedInput1\u003e.getItemId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    }
+  }
+}

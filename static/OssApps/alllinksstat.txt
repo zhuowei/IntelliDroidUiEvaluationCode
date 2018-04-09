@@ -1,0 +1,6 @@
+./k9WithGator/appInfo.json
+14
+./k9WithoutGator/appInfo.json
+9
+./kickstarterNew/appInfo.json
+12

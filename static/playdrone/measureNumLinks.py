@@ -17,8 +17,13 @@ for pathId in appInfo["callPaths"]:
 		if "viewId" in chainElem:
 			count+=1
 			break
-		if "variables" in chainElem and "\u003cChainedInput1\u003e.getId()" in chainElem["variables"]:
-			count+=1
+		if "variables" in chainElem:
+			found = False
+			for e in chainElem["variables"]:
+				if e.endswith("\u003e.getId()"):
+					found=True
+			if found:
+				count+=1
 			break
 		break
 print(count)
