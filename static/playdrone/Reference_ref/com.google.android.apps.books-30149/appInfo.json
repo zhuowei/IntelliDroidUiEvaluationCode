@@ -1,0 +1,339 @@
+{
+  "packageName": "com.google.android.apps.books",
+  "mainActivity": "com.google.android.apps.books.app.BooksActivity",
+  "callPaths": {
+    "0": {
+      "startMethod": "com.google.android.apps.books.app.UploadsActivityAlias.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "com.google.android.apps.books.app.UploadsActivityAlias.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.books.app.UploadsActivityAlias.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/apps/books/app/UploadsActivityAlias, startActivity(Landroid/content/Intent;)V \u003e@138",
+          "type": "activity",
+          "component": "com.google.android.apps.books.app.UploadsActivityAlias",
+          "constraintsFile": "constraints0_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "1": {
+      "startMethod": "com.google.android.apps.books.app.AccountPickerFragment.onDismiss(Landroid/content/DialogInterface;)V",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.books.app.AccountPickerFragment.onDismiss(Landroid/content/DialogInterface;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@38",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.books.app.BooksActivity"
+          ],
+          "listener": "com.google.android.apps.books.app.AccountPickerFragment",
+          "listenerMethod": "onDismiss",
+          "uiType": "onDismiss",
+          "constraintsFile": "constraints1_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "2": {
+      "startMethod": "com.google.android.apps.books.app.BaseBooksActivity.onAccountsUpdated([Landroid/accounts/Account;)V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.books.app.BooksActivity.\u003cinit\u003e()V",
+          "target": "PC@14",
+          "type": ""
+        },
+        {
+          "start": "com.google.android.apps.books.app.BooksActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@124",
+          "type": "activity",
+          "component": "com.google.android.apps.books.app.BooksActivity",
+          "constraintsFile": "constraints2_0.py",
+          "variables": {
+            "\u003cInput1\u003e": "IAAv5",
+            "\u003cInput1\u003e.getParcelable()": "IAAv6"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.apps.books.app.UploadsActivityAlias.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@53",
+          "type": "activity",
+          "component": "com.google.android.apps.books.app.UploadsActivityAlias",
+          "constraintsFile": "constraints2_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.apps.books.app.BaseBooksActivity.onAccountsUpdated([Landroid/accounts/Account;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@75",
+          "type": "",
+          "constraintsFile": "constraints2_2.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "3": {
+      "startMethod": "com.google.android.apps.books.app.BaseBooksActivity.onAccountsUpdated([Landroid/accounts/Account;)V",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.books.app.UploadsActivityAlias.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@65",
+          "type": "activity",
+          "component": "com.google.android.apps.books.app.UploadsActivityAlias",
+          "constraintsFile": "constraints3_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.apps.books.app.BooksActivity.\u003cinit\u003e()V",
+          "target": "PC@14",
+          "type": ""
+        },
+        {
+          "start": "com.google.android.apps.books.app.BooksActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@124",
+          "type": "activity",
+          "component": "com.google.android.apps.books.app.BooksActivity",
+          "constraintsFile": "constraints3_1.py",
+          "variables": {
+            "\u003cInput1\u003e": "IAAv8",
+            "\u003cInput1\u003e.getParcelable()": "IAAv9"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.apps.books.app.UploadsActivityAlias.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@72",
+          "type": "activity",
+          "component": "com.google.android.apps.books.app.UploadsActivityAlias",
+          "constraintsFile": "constraints3_2.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.apps.books.app.UploadsActivityAlias.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@53",
+          "type": "activity",
+          "component": "com.google.android.apps.books.app.UploadsActivityAlias",
+          "constraintsFile": "constraints3_3.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.apps.books.app.BaseBooksActivity.onAccountsUpdated([Landroid/accounts/Account;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@38",
+          "type": "",
+          "constraintsFile": "constraints3_4.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "4": {
+      "startMethod": "com.google.android.apps.books.app.UploadsActivityAlias$1.onClick(Landroid/content/DialogInterface;I)V",
+      "targetMethod": "com.google.android.apps.books.app.UploadsActivityAlias.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.books.app.UploadsActivityAlias.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/AlertDialog$Builder, setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder; \u003e@173",
+          "type": "activity",
+          "component": "com.google.android.apps.books.app.UploadsActivityAlias",
+          "constraintsFile": "constraints4_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.apps.books.app.UploadsActivityAlias$1.onClick(Landroid/content/DialogInterface;I)V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/apps/books/app/UploadsActivityAlias, startActivity(Landroid/content/Intent;)V \u003e@138",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.books.app.BooksActivity"
+          ],
+          "listener": "com.google.android.apps.books.app.UploadsActivityAlias$1",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "inDialog": "true",
+          "constraintsFile": "constraints4_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "5": {
+      "startMethod": "com.google.android.apps.books.app.RecommendUninstallActivity$1.onClick(Landroid/content/DialogInterface;I)V",
+      "targetMethod": "com.google.android.apps.books.app.RecommendUninstallActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.books.app.RecommendUninstallActivity$1.onClick(Landroid/content/DialogInterface;I)V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/apps/books/app/RecommendUninstallActivity, startActivity(Landroid/content/Intent;)V \u003e@38",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.books.app.BooksActivity"
+          ],
+          "listener": "com.google.android.apps.books.app.RecommendUninstallActivity$1",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "inDialog": "true"
+        }
+      ]
+    },
+    "6": {
+      "startMethod": "com.google.zxing.integration.android.IntentIntegrator$1.onClick(Landroid/content/DialogInterface;I)V",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.zxing.integration.android.IntentIntegrator$1.onClick(Landroid/content/DialogInterface;I)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@37",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.books.app.BooksActivity"
+          ],
+          "listener": "com.google.zxing.integration.android.IntentIntegrator$1",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "inDialog": "true"
+        }
+      ]
+    },
+    "7": {
+      "startMethod": "com.google.android.apps.books.app.UploadsActivityAlias$2.onClick(Landroid/content/DialogInterface;I)V",
+      "targetMethod": "com.google.android.apps.books.app.UploadsActivityAlias.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.books.app.UploadsActivityAlias.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/AlertDialog$Builder, setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder; \u003e@392",
+          "type": "activity",
+          "component": "com.google.android.apps.books.app.UploadsActivityAlias",
+          "constraintsFile": "constraints7_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.apps.books.app.UploadsActivityAlias$2.onClick(Landroid/content/DialogInterface;I)V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/apps/books/app/UploadsActivityAlias, startActivity(Landroid/content/Intent;)V \u003e@138",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.books.app.BooksActivity"
+          ],
+          "listener": "com.google.android.apps.books.app.UploadsActivityAlias$2",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "inDialog": "true",
+          "constraintsFile": "constraints7_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "8": {
+      "startMethod": "com.google.android.gms.dynamic.a$5.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gms.maps.MapFragment.onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
+          "target": "invokevirtual \u003c Application, Landroid/widget/Button, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@210",
+          "type": "",
+          "constraintsFile": "constraints8_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.gms.dynamic.a$5.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@31",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.books.app.BooksActivity"
+          ],
+          "listener": "com.google.android.gms.dynamic.a$5",
+          "listenerMethod": "onClick",
+          "uiType": "onClick"
+        }
+      ]
+    },
+    "9": {
+      "startMethod": "com.google.android.gms.plus.PlusOneButton$DefaultOnPlusOneClickListener.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gms.plus.PlusOneButton$DefaultOnPlusOneClickListener.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@42",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.books.app.BooksActivity"
+          ],
+          "listener": "com.google.android.gms.plus.PlusOneButton$DefaultOnPlusOneClickListener",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints9_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "10": {
+      "startMethod": "com.google.android.apps.books.widget.GeoAnnotationView$1.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.books.widget.GeoAnnotationView$1.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@43",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.books.app.BooksActivity"
+          ],
+          "listener": "com.google.android.apps.books.widget.GeoAnnotationView$1",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints10_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "11": {
+      "startMethod": "com.google.android.gms.internal.l.onClick(Landroid/content/DialogInterface;I)V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gms.internal.l.onClick(Landroid/content/DialogInterface;I)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@32",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.books.app.BooksActivity"
+          ],
+          "listener": "com.google.android.gms.internal.l",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "inDialog": "true",
+          "constraintsFile": "constraints11_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "packageName": "com.sec.spp.push",
+  "mainActivity": "",
+  "callPaths": {
+    "0": {
+      "startMethod": "com.sec.spp.push.notisvc.card.CardActionLauncher.onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.sec.spp.push.notisvc.card.CardActionLauncher.onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@357",
+          "type": "sms",
+          "constraintsFile": "constraints0_0.py",
+          "variables": {
+            "\u003cInput2\u003e.getAction()": "IAAv2",
+            "\u003cInput2\u003e": "IAAv1",
+            "\u003cInput1\u003e": "IAAv0",
+            "\u003cInput2\u003e.getStringExtra().isEmpty()": "IAAv6",
+            "\u003cInput2\u003e.getStringExtra()": "IAAv3",
+            "\u003cInput1\u003e.getPackageManager().getLaunchIntentForPackage()": "IAAv7"
+          },
+          "stringMap": {
+            "7000": "com.sec.spp.push.notisvc.CARD_CLICK",
+            "7001": "app"
+          },
+          "strings": {
+            "IAAv3": "",
+            "IAAv2": ""
+          }
+        }
+      ]
+    },
+    "1": {
+      "startMethod": "com.sec.spp.push.notisvc.card.CardActionLauncher.onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.sec.spp.push.notisvc.card.CardActionLauncher.onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@207",
+          "type": "sms",
+          "constraintsFile": "constraints1_0.py",
+          "variables": {
+            "\u003cInput2\u003e.getAction()": "IAAv2",
+            "\u003cInput2\u003e": "IAAv1",
+            "\u003cInput1\u003e": "IAAv0",
+            "\u003cInput2\u003e.getStringExtra()": "IAAv3"
+          },
+          "stringMap": {
+            "7000": "com.sec.spp.push.notisvc.CARD_CLICK",
+            "7001": "app",
+            "7002": "url"
+          },
+          "strings": {
+            "IAAv3": "",
+            "IAAv2": ""
+          }
+        }
+      ]
+    },
+    "2": {
+      "startMethod": "com.sec.spp.push.notisvc.card.CardActionLauncher.onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.sec.spp.push.notisvc.card.CardActionLauncher.onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@152",
+          "type": "sms",
+          "constraintsFile": "constraints2_0.py",
+          "variables": {
+            "\u003cInput2\u003e.getAction()": "IAAv2",
+            "\u003cInput2\u003e": "IAAv1",
+            "\u003cInput1\u003e": "IAAv0",
+            "\u003cInput2\u003e.getStringExtra().isEmpty()": "IAAv6",
+            "\u003cInput2\u003e.getStringExtra()": "IAAv3"
+          },
+          "stringMap": {
+            "7000": "com.sec.spp.push.notisvc.CARD_CLICK",
+            "7001": "app"
+          },
+          "strings": {
+            "IAAv3": "",
+            "IAAv2": ""
+          }
+        }
+      ]
+    },
+    "3": {
+      "startMethod": "com.sec.spp.push.b.onClick(Landroid/view/View;)V",
+      "targetMethod": "com.sec.spp.push.ActivitySelect.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.sec.spp.push.b.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Lcom/sec/spp/push/ActivitySelect, startActivity(Landroid/content/Intent;)V \u003e@28",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.sec.spp.push.b",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "viewId": 2131296309
+        }
+      ]
+    },
+    "4": {
+      "startMethod": "com.sec.spp.push.j.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.sec.spp.push.ManagerSpaceActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/widget/Button, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@138",
+          "type": "activity",
+          "component": "com.sec.spp.push.ManagerSpaceActivity",
+          "constraintsFile": "constraints4_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.sec.spp.push.j.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@131",
+          "type": "ui",
+          "activities": [
+            "com.sec.spp.push.ManagerSpaceActivity"
+          ],
+          "listener": "com.sec.spp.push.j",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "viewId": 2131296311,
+          "constraintsFile": "constraints4_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "5": {
+      "startMethod": "com.sec.spp.push.update.j.onClick(Landroid/view/View;)V",
+      "targetMethod": "com.sec.spp.push.update.PopupMessage.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.sec.spp.push.update.j.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Lcom/sec/spp/push/update/PopupMessage, startActivity(Landroid/content/Intent;)V \u003e@30",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.sec.spp.push.update.j",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "viewId": 2131296362
+        }
+      ]
+    },
+    "6": {
+      "startMethod": "com.sec.spp.push.c.onClick(Landroid/view/View;)V",
+      "targetMethod": "com.sec.spp.push.ActivitySelect.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.sec.spp.push.c.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Lcom/sec/spp/push/ActivitySelect, startActivity(Landroid/content/Intent;)V \u003e@28",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.sec.spp.push.c",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "viewId": 2131296309
+        }
+      ]
+    },
+    "7": {
+      "startMethod": "com.sec.spp.push.update.e.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.sec.spp.push.update.e.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@33",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.sec.spp.push.update.e",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "viewId": 2131296259
+        }
+      ]
+    },
+    "8": {
+      "startMethod": "com.sec.spp.push.a.onClick(Landroid/view/View;)V",
+      "targetMethod": "com.sec.spp.push.ActivitySelect.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.sec.spp.push.a.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Lcom/sec/spp/push/ActivitySelect, startActivity(Landroid/content/Intent;)V \u003e@28",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.sec.spp.push.a",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "viewId": 2131296309
+        }
+      ]
+    },
+    "9": {
+      "startMethod": "com.sec.spp.push.d.onClick(Landroid/view/View;)V",
+      "targetMethod": "com.sec.spp.push.ActivitySelect.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.sec.spp.push.d.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Lcom/sec/spp/push/ActivitySelect, startActivity(Landroid/content/Intent;)V \u003e@28",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.sec.spp.push.d",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "viewId": 2131296309
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,714 @@
+{
+  "packageName": "com.google.android.gm",
+  "mainActivity": "",
+  "callPaths": {
+    "0": {
+      "startMethod": "com.google.android.gm.AutoSendActivity.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "com.android.mail.compose.g.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.AutoSendActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/android/mail/compose/g, startActivityForResult(Landroid/content/Intent;I)V \u003e@80",
+          "type": "activity",
+          "component": "com.google.android.gm.AutoSendActivity",
+          "constraintsFile": "constraints0_0.py",
+          "variables": {
+            "\u003cInput1\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "1": {
+      "startMethod": "com.google.android.gm.ComposeActivityGmail.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "com.android.mail.compose.g.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.ComposeActivityGmail.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/android/mail/compose/g, startActivityForResult(Landroid/content/Intent;I)V \u003e@80",
+          "type": "activity",
+          "component": "com.google.android.gm.ComposeActivityGmail",
+          "constraintsFile": "constraints1_0.py",
+          "variables": {
+            "\u003cInput1\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "2": {
+      "startMethod": "com.google.android.gm.ViewProxyActivity.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "com.google.android.gm.ViewProxyActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.ViewProxyActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/gm/ViewProxyActivity, startActivity(Landroid/content/Intent;)V \u003e@276",
+          "type": "activity",
+          "component": "com.google.android.gm.ViewProxyActivity"
+        }
+      ]
+    },
+    "3": {
+      "startMethod": "com.google.android.gm.preference.GmailPreferenceActivity.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "com.google.android.gm.preference.GmailPreferenceActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.preference.GmailPreferenceActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/gm/preference/GmailPreferenceActivity, startActivity(Landroid/content/Intent;)V \u003e@474",
+          "type": "activity",
+          "component": "com.google.android.gm.preference.GmailPreferenceActivity"
+        }
+      ]
+    },
+    "4": {
+      "startMethod": "com.google.android.gm.preference.GmailPreferenceActivity.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "com.google.android.gm.preference.GmailPreferenceActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.preference.GmailPreferenceActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/gm/preference/GmailPreferenceActivity, startActivity(Landroid/content/Intent;)V \u003e@395",
+          "type": "activity",
+          "component": "com.google.android.gm.preference.GmailPreferenceActivity"
+        }
+      ]
+    },
+    "5": {
+      "startMethod": "com.google.android.gm.preference.GmailPreferenceActivity.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "com.google.android.gm.preference.GmailPreferenceActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.preference.GmailPreferenceActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/gm/preference/GmailPreferenceActivity, startActivity(Landroid/content/Intent;)V \u003e@248",
+          "type": "activity",
+          "component": "com.google.android.gm.preference.GmailPreferenceActivity"
+        }
+      ]
+    },
+    "6": {
+      "startMethod": "com.google.android.gm.preference.PublicPreferenceActivity.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "com.google.android.gm.preference.PublicPreferenceActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.preference.PublicPreferenceActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/gm/preference/PublicPreferenceActivity, startActivity(Landroid/content/Intent;)V \u003e@190",
+          "type": "activity",
+          "component": "com.google.android.gm.preference.PublicPreferenceActivity"
+        }
+      ]
+    },
+    "7": {
+      "startMethod": "com.google.android.gm.CreateShortcutActivityGmail.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "com.google.android.gm.CreateShortcutActivityGmail.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.CreateShortcutActivityGmail.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/gm/CreateShortcutActivityGmail, startActivity(Landroid/content/Intent;)V \u003e@90",
+          "type": "activity",
+          "component": "com.google.android.gm.CreateShortcutActivityGmail"
+        }
+      ]
+    },
+    "8": {
+      "startMethod": "com.google.android.gm.browse.l.onLoadFinished(Landroid/content/Loader;Ljava/lang/Object;)V",
+      "targetMethod": "com.google.android.gm.browse.TrampolineActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.browse.TrampolineActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/LoaderManager, initLoader(ILandroid/os/Bundle;Landroid/app/LoaderManager$LoaderCallbacks;)Landroid/content/Loader; \u003e@249",
+          "type": "activity",
+          "component": "com.google.android.gm.browse.TrampolineActivity"
+        },
+        {
+          "start": "com.google.android.gm.browse.l.onLoadFinished(Landroid/content/Loader;Ljava/lang/Object;)V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/gm/browse/TrampolineActivity, startActivity(Landroid/content/Intent;)V \u003e@13",
+          "type": ""
+        }
+      ]
+    },
+    "9": {
+      "startMethod": "com.android.mail.ui.cr.onLoadFinished(Landroid/content/Loader;Ljava/lang/Object;)V",
+      "targetMethod": "com.android.mail.ui.cr.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.android.mail.ui.cr.\u003cinit\u003e()V",
+          "target": "PC@33",
+          "type": "",
+          "constraintsFile": "constraints9_0.py",
+          "variables": {
+            "\u003cChainedInput2\u003e": "IAAv0",
+            "\u003cChainedInput2\u003e.moveToFirst()": "IAAv1",
+            "\u003cChainedInput2\u003e.getCount()": "IAAv4",
+            "\u003cChainedInput2\u003e.moveToNext()": "IAAv2"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.android.mail.ui.cr.\u003cinit\u003e()V",
+          "target": "PC@28",
+          "type": "",
+          "constraintsFile": "constraints9_1.py",
+          "variables": {
+            "\u003cChainedInput2\u003e": "IAAv0",
+            "\u003cChainedInput2\u003e.moveToFirst()": "IAAv1",
+            "\u003cChainedInput2\u003e.getCount()": "IAAv4",
+            "\u003cChainedInput2\u003e.moveToNext()": "IAAv2"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.android.mail.ui.cr.onLoadFinished(Landroid/content/Loader;Ljava/lang/Object;)V",
+          "target": "invokevirtual \u003c Application, Lcom/android/mail/ui/cr, startActivityForResult(Landroid/content/Intent;I)V \u003e@55",
+          "type": "",
+          "constraintsFile": "constraints9_2.py",
+          "variables": {
+            "\u003cChainedInput2\u003e": "IAAv0",
+            "\u003cChainedInput2\u003e.moveToFirst()": "IAAv1",
+            "\u003cChainedInput2\u003e.getCount()": "IAAv5",
+            "\u003cChainedInput2\u003e.moveToNext()": "IAAv2"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "10": {
+      "startMethod": "com.android.mail.ui.cr.onLoadFinished(Landroid/content/Loader;Ljava/lang/Object;)V",
+      "targetMethod": "com.android.mail.ui.cr.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.android.mail.ui.cr.\u003cinit\u003e()V",
+          "target": "PC@28",
+          "type": "",
+          "constraintsFile": "constraints10_0.py",
+          "variables": {
+            "\u003cChainedInput2\u003e": "IAAv0",
+            "\u003cChainedInput2\u003e.moveToFirst()": "IAAv1",
+            "\u003cChainedInput2\u003e.getCount()": "IAAv3",
+            "\u003cChainedInput2\u003e.moveToNext()": "IAAv2"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.android.mail.ui.cr.onLoadFinished(Landroid/content/Loader;Ljava/lang/Object;)V",
+          "target": "invokevirtual \u003c Application, Lcom/android/mail/ui/cr, startActivity(Landroid/content/Intent;)V \u003e@101",
+          "type": "",
+          "constraintsFile": "constraints10_1.py",
+          "variables": {
+            "\u003cChainedInput2\u003e": "IAAv0",
+            "\u003cChainedInput2\u003e.moveToFirst()": "IAAv1",
+            "\u003cChainedInput2\u003e.getCount()": "IAAv3",
+            "\u003cChainedInput2\u003e.moveToNext()": "IAAv2"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "11": {
+      "startMethod": "com.android.mail.ui.u.onLoadFinished(Landroid/content/Loader;Ljava/lang/Object;)V",
+      "targetMethod": "com.android.mail.ui.co.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.ui.MailActivityGmail.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/LoaderManager, initLoader(ILandroid/os/Bundle;Landroid/app/LoaderManager$LoaderCallbacks;)Landroid/content/Loader; \u003e@664",
+          "type": "activity",
+          "component": "com.google.android.gm.ui.MailActivityGmail",
+          "constraintsFile": "constraints11_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e": "IAAv4",
+            "\u003cChainedInput1\u003e.containsKey()": "IAAv16"
+          },
+          "stringMap": {
+            "7000": "android.intent.action.SEARCH",
+            "7001": "android.intent.action.VIEW"
+          },
+          "strings": {
+            "IAAv2": ""
+          }
+        },
+        {
+          "start": "com.android.mail.ui.u.onLoadFinished(Landroid/content/Loader;Ljava/lang/Object;)V",
+          "target": "invokevirtual \u003c Application, Lcom/android/mail/ui/co, startActivity(Landroid/content/Intent;)V \u003e@306",
+          "type": "",
+          "constraintsFile": "constraints11_1.py",
+          "variables": {
+            "\u003cChainedInput2\u003e": "IAAv1",
+            "\u003cChainedInput2\u003e.b()": "IAAv7",
+            "\u003cChainedInput2\u003e.moveToFirst()": "IAAv5",
+            "\u003cChainedInput2\u003e.getCount()": "IAAv2",
+            "\u003cChainedInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "12": {
+      "startMethod": "com.android.mail.ui.u.onLoadFinished(Landroid/content/Loader;Ljava/lang/Object;)V",
+      "targetMethod": "com.android.mail.ui.co.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.ui.MailActivityGmail.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/LoaderManager, initLoader(ILandroid/os/Bundle;Landroid/app/LoaderManager$LoaderCallbacks;)Landroid/content/Loader; \u003e@664",
+          "type": "activity",
+          "component": "com.google.android.gm.ui.MailActivityGmail",
+          "constraintsFile": "constraints12_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e": "IAAv4",
+            "\u003cChainedInput1\u003e.containsKey()": "IAAv16"
+          },
+          "stringMap": {
+            "7000": "android.intent.action.SEARCH",
+            "7001": "android.intent.action.VIEW"
+          },
+          "strings": {
+            "IAAv2": ""
+          }
+        },
+        {
+          "start": "com.android.mail.ui.u.onLoadFinished(Landroid/content/Loader;Ljava/lang/Object;)V",
+          "target": "invokevirtual \u003c Application, Lcom/android/mail/ui/co, startActivityForResult(Landroid/content/Intent;I)V \u003e@189",
+          "type": "",
+          "constraintsFile": "constraints12_1.py",
+          "variables": {
+            "\u003cChainedInput2\u003e": "IAAv1",
+            "\u003cChainedInput2\u003e.getCount()": "IAAv2",
+            "\u003cChainedInput1\u003e.getId()": "IAAv0",
+            "\u003cChainedInput2\u003e.getExtras().getInt()": "IAAv3"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "13": {
+      "startMethod": "com.google.android.gms.common.internal.d.onClick(Landroid/content/DialogInterface;I)V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.photo.b.onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;",
+          "target": "PC@26",
+          "type": ""
+        },
+        {
+          "start": "com.google.android.gm.photo.b.onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;",
+          "target": "PC@21",
+          "type": ""
+        },
+        {
+          "start": "com.google.android.gm.photo.b.onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;",
+          "target": "PC@16",
+          "type": ""
+        },
+        {
+          "start": "com.google.android.gms.common.internal.d.onClick(Landroid/content/DialogInterface;I)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@82",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.google.android.gms.common.internal.d",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "inDialog": "true",
+          "constraintsFile": "constraints13_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "14": {
+      "startMethod": "com.android.mail.browse.MessageInviteView.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.android.mail.browse.MessageInviteView.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@83",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.android.mail.browse.MessageInviteView",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints14_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "15": {
+      "startMethod": "com.android.mail.browse.MessageAttachmentTile.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.android.mail.browse.MessageAttachmentTile.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@159",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.android.mail.browse.MessageAttachmentTile",
+          "listenerMethod": "onClick",
+          "uiType": "onClick"
+        }
+      ]
+    },
+    "16": {
+      "startMethod": "com.google.android.gm.photo.GmailPhotoViewActivity.onClick(Landroid/view/View;)V",
+      "targetMethod": "com.google.android.gm.photo.GmailPhotoViewActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.photo.GmailPhotoViewActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/widget/ImageView, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@85",
+          "type": "activity",
+          "component": "com.google.android.gm.photo.GmailPhotoViewActivity"
+        },
+        {
+          "start": "com.google.android.gm.photo.GmailPhotoViewActivity.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/gm/photo/GmailPhotoViewActivity, startActivity(Landroid/content/Intent;)V \u003e@37",
+          "type": "ui",
+          "activities": [
+            "com.google.android.gm.photo.GmailPhotoViewActivity"
+          ],
+          "listener": "com.google.android.gm.photo.GmailPhotoViewActivity",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints16_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "17": {
+      "startMethod": "com.google.android.gm.ads.AdSenderHeaderView.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.ads.AdSenderHeaderView.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@226",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.google.android.gm.ads.AdSenderHeaderView",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints17_0.py",
+          "variables": {
+            "\u003cInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "18": {
+      "startMethod": "com.android.mail.browse.MessageFooterView.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.android.mail.browse.MessageFooterView.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@240",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.android.mail.browse.MessageFooterView",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints18_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "19": {
+      "startMethod": "com.google.android.gm.preference.j.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.preference.j.onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;",
+          "target": "invokevirtual \u003c Application, Landroid/view/View, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@36",
+          "type": ""
+        },
+        {
+          "start": "com.google.android.gm.preference.j.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@89",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.google.android.gm.preference.j",
+          "listenerMethod": "onClick",
+          "uiType": "onClick"
+        }
+      ]
+    },
+    "20": {
+      "startMethod": "com.google.android.gm.ui.b.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.ui.b.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@89",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.google.android.gm.ui.b",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints20_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "21": {
+      "startMethod": "com.google.android.gm.ui.w.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.ui.w.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@42",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.google.android.gm.ui.w",
+          "listenerMethod": "onClick",
+          "uiType": "onClick"
+        }
+      ]
+    },
+    "22": {
+      "startMethod": "com.android.mail.compose.g.onClick(Landroid/view/View;)V",
+      "targetMethod": "com.android.mail.compose.g.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.AutoSendActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/widget/Button, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@60",
+          "type": "activity",
+          "component": "com.google.android.gm.AutoSendActivity",
+          "constraintsFile": "constraints22_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e": "IAAv0"
+          },
+          "stringMap": {
+            "7000": "\u003cUI\u003e"
+          },
+          "strings": {}
+        },
+        {
+          "start": "com.android.mail.compose.g.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Lcom/android/mail/compose/g, startActivityForResult(Landroid/content/Intent;I)V \u003e@80",
+          "type": "ui",
+          "activities": [
+            "com.android.mail.compose.g"
+          ],
+          "listener": "com.android.mail.compose.g",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints22_1.py",
+          "variables": {
+            "\u003cInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "23": {
+      "startMethod": "com.android.mail.browse.MessageHeaderView.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.android.mail.browse.MessageHeaderView.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/widget/TextView, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@61",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.android.mail.browse.MessageHeaderView",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints23_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e.getId()": "IAAv1"
+          },
+          "stringMap": {},
+          "strings": {
+            "IAAv5": ""
+          }
+        },
+        {
+          "start": "com.android.mail.browse.MessageHeaderView.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@226",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.android.mail.browse.MessageHeaderView",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints23_1.py",
+          "variables": {
+            "\u003cChainedInput1\u003e.getId()": "IAAv1"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "24": {
+      "startMethod": "com.google.android.gm.drive.h.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.drive.h.onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;",
+          "target": "invokevirtual \u003c Application, Landroid/view/View, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@170",
+          "type": "",
+          "constraintsFile": "constraints24_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.gm.drive.h.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@89",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.google.android.gm.drive.h",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints24_1.py",
+          "variables": {
+            "\u003cInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "25": {
+      "startMethod": "com.android.mail.browse.MessageAttachmentBar.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.android.mail.browse.MessageAttachmentBar.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@46",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.android.mail.browse.MessageAttachmentBar",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints25_0.py",
+          "variables": {
+            "\u003cInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "26": {
+      "startMethod": "com.google.android.gm.ads.AdHeaderView.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.ads.AdHeaderView.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@89",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.google.android.gm.ads.AdHeaderView",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints26_0.py",
+          "variables": {
+            "\u003cInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "27": {
+      "startMethod": "com.google.android.gm.ui.c.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gm.ui.c.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@28",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.google.android.gm.ui.c",
+          "listenerMethod": "onClick",
+          "uiType": "onClick"
+        }
+      ]
+    },
+    "28": {
+      "startMethod": "com.android.mail.ui.aJ.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.android.mail.ui.aJ.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@83",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.android.mail.ui.aJ",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints28_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "29": {
+      "startMethod": "com.android.mail.browse.bf.onMenuItemClick(Landroid/view/MenuItem;)Z",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.android.mail.browse.bf.onMenuItemClick(Landroid/view/MenuItem;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@18",
+          "type": "ui",
+          "activities": [
+            ""
+          ],
+          "listener": "com.android.mail.browse.bf",
+          "listenerMethod": "onMenuItemClick",
+          "uiType": "onMenuItemClick"
+        }
+      ]
+    }
+  }
+}

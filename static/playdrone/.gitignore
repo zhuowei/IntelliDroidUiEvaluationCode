@@ -1,5 +1,7 @@
 failed
-com.*-*
 playdrone_20_ref_preproc
 playdrone_20_ref_static
 static_log.txt
+playdrone_20_new_preproc
+playdrone_20_new_static
+playdrone_set

@@ -1,0 +1,775 @@
+{
+  "packageName": "com.android.chrome",
+  "mainActivity": "com.google.android.apps.chrome.Main",
+  "callPaths": {
+    "0": {
+      "startMethod": "com.google.android.apps.chrome.appwidget.bookmarks.BookmarkWidgetProxy.onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.appwidget.bookmarks.BookmarkWidgetProxy.onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@12",
+          "type": "sms",
+          "constraintsFile": "constraints0_0.py",
+          "variables": {
+            "\u003cInput2\u003e.getAction()": "IAAv1",
+            "\u003cInput1\u003e.getChangeFolderAction()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {
+            "IAAv1": "",
+            "IAAv0": ""
+          }
+        }
+      ]
+    },
+    "1": {
+      "startMethod": "com.google.android.apps.chrome.firstrun.FirstRunActivity.onStart()V",
+      "targetMethod": "com.google.android.apps.chrome.firstrun.FirstRunActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.firstrun.FirstRunActivity.onStart()V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/apps/chrome/firstrun/FirstRunActivity, startActivity(Landroid/content/Intent;)V \u003e@139",
+          "type": "activity",
+          "component": "com.google.android.apps.chrome.firstrun.FirstRunActivity",
+          "constraintsFile": "constraints1_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "2": {
+      "startMethod": "com.google.android.apps.chrome.OpenDownloadReceiver.onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.OpenDownloadReceiver.onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@146",
+          "type": "sms",
+          "constraintsFile": "constraints2_0.py",
+          "variables": {
+            "\u003cInput2\u003e.getAction()": "IAAv0",
+            "\u003cInput2\u003e.getLongArrayExtra()": "IAAv2",
+            "\u003cInput1\u003e.getSystemService().getUriForDownloadedFile()": "IAAv3"
+          },
+          "stringMap": {
+            "7000": "android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+          },
+          "strings": {
+            "IAAv0": ""
+          }
+        }
+      ]
+    },
+    "3": {
+      "startMethod": "com.google.android.apps.chrome.OpenDownloadReceiver.onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.OpenDownloadReceiver.onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@24",
+          "type": "sms",
+          "constraintsFile": "constraints3_0.py",
+          "variables": {
+            "\u003cInput2\u003e.getAction()": "IAAv0"
+          },
+          "stringMap": {
+            "7000": "android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+          },
+          "strings": {
+            "IAAv0": ""
+          }
+        }
+      ]
+    },
+    "4": {
+      "startMethod": "com.google.android.apps.chrome.sync.ui.SyncCustomizationFragment.onResume()V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.sync.ui.SyncCustomizationFragment.onResume()V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@105",
+          "type": "",
+          "constraintsFile": "constraints4_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "5": {
+      "startMethod": "com.google.android.apps.chrome.videofling.NotificationTransportControl$ListenerService.onStartCommand(Landroid/content/Intent;II)I",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.videofling.NotificationTransportControl$ListenerService.onStartCommand(Landroid/content/Intent;II)I",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@31",
+          "type": "service",
+          "component": "com.google.android.apps.chrome.videofling.NotificationTransportControl$ListenerService",
+          "constraintsFile": "constraints5_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e": "IAAv0",
+            "\u003cChainedInput1\u003e.getAction()": "IAAv1"
+          },
+          "stringMap": {},
+          "strings": {
+            "IAAv1": ""
+          }
+        }
+      ]
+    },
+    "6": {
+      "startMethod": "com.google.android.apps.chrome.firstrun.FirstRunActivity.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.firstrun.FirstRunActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@105",
+          "type": "activity",
+          "component": "com.google.android.apps.chrome.firstrun.FirstRunActivity",
+          "constraintsFile": "constraints6_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "7": {
+      "startMethod": "com.google.android.apps.chrome.firstrun.FirstRunActivity.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.firstrun.FirstRunActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@110",
+          "type": "activity",
+          "component": "com.google.android.apps.chrome.firstrun.FirstRunActivity",
+          "constraintsFile": "constraints7_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "8": {
+      "startMethod": "com.google.android.apps.chrome.firstrun.FirstRunActivity.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.firstrun.FirstRunActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@120",
+          "type": "activity",
+          "component": "com.google.android.apps.chrome.firstrun.FirstRunActivity",
+          "constraintsFile": "constraints8_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "9": {
+      "startMethod": "com.google.android.apps.chrome.firstrun.FirstRunActivity.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "com.google.android.apps.chrome.firstrun.FirstRunActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.firstrun.FirstRunActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/apps/chrome/firstrun/FirstRunActivity, startActivity(Landroid/content/Intent;)V \u003e@139",
+          "type": "activity",
+          "component": "com.google.android.apps.chrome.firstrun.FirstRunActivity",
+          "constraintsFile": "constraints9_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "10": {
+      "startMethod": "com.google.android.apps.chrome.Main.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "com.google.android.apps.chrome.Main.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.Main.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/apps/chrome/Main, startActivity(Landroid/content/Intent;)V \u003e@51",
+          "type": "activity",
+          "component": "com.google.android.apps.chrome.Main"
+        }
+      ]
+    },
+    "11": {
+      "startMethod": "com.google.android.apps.chrome.webapps.WebappManager.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "com.google.android.apps.chrome.webapps.WebappManager.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.webapps.WebappManager.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/apps/chrome/webapps/WebappManager, startActivity(Landroid/content/Intent;)V \u003e@243",
+          "type": "activity",
+          "component": "com.google.android.apps.chrome.webapps.WebappManager"
+        }
+      ]
+    },
+    "12": {
+      "startMethod": "com.google.android.apps.chrome.webapps.WebappManager.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.webapps.WebappManager.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@225",
+          "type": "activity",
+          "component": "com.google.android.apps.chrome.webapps.WebappManager"
+        }
+      ]
+    },
+    "13": {
+      "startMethod": "com.google.android.apps.chrome.ChromeTabbedActivity.onStart()V",
+      "targetMethod": "com.google.android.apps.chrome.firstrun.FirstRunActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.ChromeTabbedActivity.onStart()V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/apps/chrome/firstrun/FirstRunActivity, startActivity(Landroid/content/Intent;)V \u003e@139",
+          "type": "activity",
+          "component": "com.google.android.apps.chrome.ChromeTabbedActivity"
+        }
+      ]
+    },
+    "14": {
+      "startMethod": "com.google.android.apps.chrome.ChromeTabbedActivity.onStart()V",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.ChromeTabbedActivity.onStart()V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@120",
+          "type": "activity",
+          "component": "com.google.android.apps.chrome.ChromeTabbedActivity"
+        }
+      ]
+    },
+    "15": {
+      "startMethod": "com.google.android.apps.chrome.ChromeTabbedActivity.onStart()V",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.ChromeTabbedActivity.onStart()V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@110",
+          "type": "activity",
+          "component": "com.google.android.apps.chrome.ChromeTabbedActivity"
+        }
+      ]
+    },
+    "16": {
+      "startMethod": "com.google.android.apps.chrome.ChromeTabbedActivity.onStart()V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.ChromeTabbedActivity.onStart()V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@105",
+          "type": "activity",
+          "component": "com.google.android.apps.chrome.ChromeTabbedActivity"
+        }
+      ]
+    },
+    "17": {
+      "startMethod": "com.google.android.apps.chrome.preferences.password.ManageSavedPasswordsPreferences.onPreferenceClick(Landroid/preference/Preference;)Z",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.preferences.password.ManageSavedPasswordsPreferences.onPreferenceClick(Landroid/preference/Preference;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@160",
+          "type": "",
+          "constraintsFile": "constraints17_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "18": {
+      "startMethod": "com.google.android.apps.chrome.preferences.password.ManageSavedPasswordsPreferences.onPreferenceClick(Landroid/preference/Preference;)Z",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.preferences.password.ManageSavedPasswordsPreferences.onPreferenceClick(Landroid/preference/Preference;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@70",
+          "type": "",
+          "constraintsFile": "constraints18_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "19": {
+      "startMethod": "com.google.android.apps.chrome.signin.AccountManagementFragment$7.onClick(Landroid/content/DialogInterface;I)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.signin.AccountManagementFragment$7.onClick(Landroid/content/DialogInterface;I)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@128",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.chrome.Main"
+          ],
+          "listener": "com.google.android.apps.chrome.signin.AccountManagementFragment$7",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "inDialog": "true",
+          "viewId": 16908315
+        }
+      ]
+    },
+    "20": {
+      "startMethod": "com.google.android.apps.chrome.services.ui.AddGoogleAccountDialogFragment.onClick(Landroid/content/DialogInterface;I)V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.preferences.Preferences.onHeaderClick(Landroid/preference/PreferenceActivity$Header;I)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/AlertDialog$Builder, setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder; \u003e@32",
+          "type": "",
+          "constraintsFile": "constraints20_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e.id": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.apps.chrome.services.ui.AddGoogleAccountDialogFragment.onClick(Landroid/content/DialogInterface;I)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@8",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.chrome.Main"
+          ],
+          "listener": "com.google.android.apps.chrome.services.ui.AddGoogleAccountDialogFragment",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "inDialog": "true",
+          "constraintsFile": "constraints20_1.py",
+          "variables": {
+            "\u003cInput2\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "21": {
+      "startMethod": "org.chromium.chrome.browser.AccessibilityUtil$2.onClick(Landroid/content/DialogInterface;I)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "org.chromium.chrome.browser.AccessibilityUtil$2.onClick(Landroid/content/DialogInterface;I)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@34",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.chrome.Main"
+          ],
+          "listener": "org.chromium.chrome.browser.AccessibilityUtil$2",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "inDialog": "true",
+          "viewId": 16908313
+        }
+      ]
+    },
+    "22": {
+      "startMethod": "com.google.android.apps.chrome.bookmark.ImportBookmarksAlertDialog.onClick(Landroid/content/DialogInterface;I)V",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.bookmark.ImportBookmarksAlertDialog.onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;",
+          "target": "invokevirtual \u003c Application, Landroid/app/AlertDialog$Builder, setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder; \u003e@32",
+          "type": ""
+        },
+        {
+          "start": "com.google.android.apps.chrome.bookmark.ImportBookmarksAlertDialog.onClick(Landroid/content/DialogInterface;I)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@191",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.chrome.Main"
+          ],
+          "listener": "com.google.android.apps.chrome.bookmark.ImportBookmarksAlertDialog",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "inDialog": "true",
+          "constraintsFile": "constraints22_0.py",
+          "variables": {
+            "\u003cInput2\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "23": {
+      "startMethod": "com.google.android.gms.internal.f.onClick(Landroid/content/DialogInterface;I)V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gms.internal.f.onClick(Landroid/content/DialogInterface;I)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@82",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.chrome.Main"
+          ],
+          "listener": "com.google.android.gms.internal.f",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "inDialog": "true",
+          "constraintsFile": "constraints23_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "24": {
+      "startMethod": "com.google.android.apps.chrome.preferences.Preferences.onActivityResult(IILandroid/content/Intent;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.preferences.Preferences.onHeaderClick(Landroid/preference/PreferenceActivity$Header;I)V",
+          "target": "invokespecial \u003c Application, Landroid/preference/PreferenceActivity, onHeaderClick(Landroid/preference/PreferenceActivity$Header;I)V \u003e@177",
+          "type": "",
+          "constraintsFile": "constraints24_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e.id": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.apps.chrome.preferences.Preferences.onActivityResult(IILandroid/content/Intent;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@105",
+          "type": "",
+          "constraintsFile": "constraints24_1.py",
+          "variables": {
+            "\u003cInput1\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "25": {
+      "startMethod": "com.google.android.apps.chrome.preferences.Preferences.onActivityResult(IILandroid/content/Intent;)V",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.preferences.Preferences.onHeaderClick(Landroid/preference/PreferenceActivity$Header;I)V",
+          "target": "invokespecial \u003c Application, Landroid/preference/PreferenceActivity, onHeaderClick(Landroid/preference/PreferenceActivity$Header;I)V \u003e@177",
+          "type": "",
+          "constraintsFile": "constraints25_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e.id": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.apps.chrome.preferences.Preferences.onActivityResult(IILandroid/content/Intent;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@120",
+          "type": "",
+          "constraintsFile": "constraints25_1.py",
+          "variables": {
+            "\u003cInput1\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "26": {
+      "startMethod": "com.google.android.apps.chrome.signin.AccountManagementFragment$4.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.sync.ui.SyncCustomizationFragment.onResume()V",
+          "target": "invokevirtual \u003c Application, Landroid/view/View, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@226",
+          "type": "",
+          "constraintsFile": "constraints26_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {
+            "IAAv14": "",
+            "IAAv15": ""
+          }
+        },
+        {
+          "start": "com.google.android.apps.chrome.signin.AccountManagementFragment$4.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@168",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.chrome.Main"
+          ],
+          "listener": "com.google.android.apps.chrome.signin.AccountManagementFragment$4",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints26_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "27": {
+      "startMethod": "com.google.android.apps.chrome.signin.AccountManagementFragment$2.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.signin.AccountManagementFragment.onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
+          "target": "invokevirtual \u003c Application, Landroid/view/View, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@283",
+          "type": ""
+        },
+        {
+          "start": "com.google.android.apps.chrome.signin.AccountManagementFragment$2.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@22",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.chrome.Main"
+          ],
+          "listener": "com.google.android.apps.chrome.signin.AccountManagementFragment$2",
+          "listenerMethod": "onClick",
+          "uiType": "onClick"
+        }
+      ]
+    },
+    "28": {
+      "startMethod": "com.google.android.apps.chrome.promoscreen.DataReductionPromoScreen.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.promoscreen.DataReductionPromoScreen.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@85",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.chrome.Main"
+          ],
+          "listener": "com.google.android.apps.chrome.promoscreen.DataReductionPromoScreen",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints28_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "29": {
+      "startMethod": "org.chromium.chrome.browser.WebsiteSettingsPopup.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "org.chromium.chrome.browser.WebsiteSettingsPopup.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@145",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.chrome.Main"
+          ],
+          "listener": "org.chromium.chrome.browser.WebsiteSettingsPopup",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints29_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e": "IAAv1"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "30": {
+      "startMethod": "com.google.android.apps.chrome.signin.AccountManagementFragment$3.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.sync.ui.SyncCustomizationFragment.onResume()V",
+          "target": "invokevirtual \u003c Application, Landroid/view/View, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@509",
+          "type": "",
+          "constraintsFile": "constraints30_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.apps.chrome.signin.AccountManagementFragment$3.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@8",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.chrome.Main"
+          ],
+          "listener": "com.google.android.apps.chrome.signin.AccountManagementFragment$3",
+          "listenerMethod": "onClick",
+          "uiType": "onClick"
+        }
+      ]
+    },
+    "31": {
+      "startMethod": "org.chromium.chrome.browser.banners.AppBannerView.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "org.chromium.chrome.browser.banners.AppBannerView.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@238",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.chrome.Main"
+          ],
+          "listener": "org.chromium.chrome.browser.banners.AppBannerView",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints31_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e": "IAAv1"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "32": {
+      "startMethod": "com.google.android.apps.chrome.prerender.PrerenderAPITestActivity.onClick(Landroid/view/View;)V",
+      "targetMethod": "com.google.android.apps.chrome.prerender.PrerenderAPITestActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.prerender.PrerenderAPITestActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/view/View, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@27",
+          "type": "activity",
+          "component": "com.google.android.apps.chrome.prerender.PrerenderAPITestActivity"
+        },
+        {
+          "start": "com.google.android.apps.chrome.prerender.PrerenderAPITestActivity.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/apps/chrome/prerender/PrerenderAPITestActivity, startActivity(Landroid/content/Intent;)V \u003e@124",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.chrome.prerender.PrerenderAPITestActivity"
+          ],
+          "listener": "com.google.android.apps.chrome.prerender.PrerenderAPITestActivity",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints32_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e.getId()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "33": {
+      "startMethod": "com.google.android.apps.chrome.tab.ChromeDownloadListener.onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.firstrun.FirstRunActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokespecial \u003c Application, Landroid/content/BroadcastReceiver, \u003cinit\u003e()V \u003e@2",
+          "type": "activity",
+          "component": "com.google.android.apps.chrome.firstrun.FirstRunActivity",
+          "constraintsFile": "constraints33_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e": "IAAv0"
+          },
+          "stringMap": {
+            "7000": "chrome://welcome/"
+          },
+          "strings": {
+            "IAAv19": ""
+          }
+        },
+        {
+          "start": "com.google.android.apps.chrome.tab.ChromeDownloadListener.onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@288",
+          "type": "sms",
+          "constraintsFile": "constraints33_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "34": {
+      "startMethod": "org.chromium.chrome.browser.share.ShareHelper$1.onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.ChromeTabbedActivity.onKeyDown(ILandroid/view/KeyEvent;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/widget/ListView, setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V \u003e@225",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.chrome.Main"
+          ],
+          "listener": "com.google.android.apps.chrome.ChromeTabbedActivity",
+          "listenerMethod": "onKeyDown",
+          "uiType": "onKeyDown",
+          "constraintsFile": "constraints34_0.py",
+          "variables": {
+            "\u003cChainedInput2\u003e.getMetaState()": "IAAv3",
+            "\u003cChainedInput2\u003e.getKeyCode()": "IAAv2"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "org.chromium.chrome.browser.share.ShareHelper$1.onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@126",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.chrome.Main"
+          ],
+          "listener": "org.chromium.chrome.browser.share.ShareHelper$1",
+          "listenerMethod": "onItemClick",
+          "uiType": "onItemClick"
+        }
+      ]
+    },
+    "35": {
+      "startMethod": "com.google.android.apps.chrome.ntp.RecentTabsPage.onChildClick(Landroid/widget/ExpandableListView;Landroid/view/View;IIJ)Z",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.apps.chrome.firstrun.FirstRunActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/widget/ExpandableListView, setOnChildClickListener(Landroid/widget/ExpandableListView$OnChildClickListener;)V \u003e@141",
+          "type": "activity",
+          "component": "com.google.android.apps.chrome.firstrun.FirstRunActivity",
+          "constraintsFile": "constraints35_0.py",
+          "variables": {
+            "\u003cChainedInput1\u003e": "IAAv0"
+          },
+          "stringMap": {
+            "7000": "chrome://welcome/"
+          },
+          "strings": {
+            "IAAv19": ""
+          }
+        },
+        {
+          "start": "com.google.android.apps.chrome.ntp.RecentTabsPage.onChildClick(Landroid/widget/ExpandableListView;Landroid/view/View;IIJ)Z",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@22",
+          "type": "ui",
+          "activities": [
+            "com.google.android.apps.chrome.Main"
+          ],
+          "listener": "com.google.android.apps.chrome.ntp.RecentTabsPage",
+          "listenerMethod": "onChildClick",
+          "uiType": "onChildClick",
+          "constraintsFile": "constraints35_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    }
+  }
+}

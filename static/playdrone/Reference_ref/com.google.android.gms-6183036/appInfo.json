@@ -1,0 +1,64 @@
+{
+  "packageName": "com.google.android.gms",
+  "mainActivity": "com.google.android.gms.auth.gsf.AccountIntroActivity",
+  "callPaths": {
+    "0": {
+      "startMethod": "com.google.android.location.network.ConfirmAlertActivity.onClick(Landroid/content/DialogInterface;I)V",
+      "targetMethod": "com.google.android.location.network.ConfirmAlertActivity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.location.network.ConfirmAlertActivity.onClick(Landroid/content/DialogInterface;I)V",
+          "target": "PC@15",
+          "type": "ui",
+          "activities": [
+            "com.google.android.gms.auth.gsf.AccountIntroActivity"
+          ],
+          "listener": "android.view.View$1",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints0_0.py",
+          "variables": {
+            "\u003cInput2\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.location.network.ConfirmAlertActivity.onClick(Landroid/content/DialogInterface;I)V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/location/network/ConfirmAlertActivity, startActivity(Landroid/content/Intent;)V \u003e@76",
+          "type": "ui",
+          "activities": [
+            "com.google.android.gms.auth.gsf.AccountIntroActivity"
+          ],
+          "listener": "android.view.View$1",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints0_1.py",
+          "variables": {
+            "\u003cChainedInput2\u003e": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "1": {
+      "startMethod": "com.google.android.gms.ads.internal.j.b.onClick(Landroid/content/DialogInterface;I)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gms.ads.internal.j.b.onClick(Landroid/content/DialogInterface;I)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@159",
+          "type": "ui",
+          "activities": [
+            "com.google.android.gms.auth.gsf.AccountIntroActivity"
+          ],
+          "listener": "android.view.View$1",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "inDialog": "true"
+        }
+      ]
+    }
+  }
+}

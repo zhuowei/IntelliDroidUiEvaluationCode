@@ -1,0 +1,10 @@
+playdrone_20_new_static/com.android.chrome-2125114/appInfo.json
+2
+playdrone_20_new_static/com.google.android.gm-4900120/appInfo.json
+2
+playdrone_20_new_static/com.google.android.street-18102/appInfo.json
+0
+playdrone_20_new_static/com.rovio.angrybirds-4210/appInfo.json
+0
+playdrone_20_new_static/com.sec.spp.push-102/appInfo.json
+1

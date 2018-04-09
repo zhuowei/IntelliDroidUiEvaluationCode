@@ -1,0 +1,572 @@
+{
+  "packageName": "com.rovio.angrybirds",
+  "mainActivity": "com.rovio.fusion.App",
+  "callPaths": {
+    "0": {
+      "startMethod": "com.facebook.LoginActivity.onResume()V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.facebook.LoginActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@30",
+          "type": "activity",
+          "component": "com.facebook.LoginActivity",
+          "constraintsFile": "constraints0_0.py",
+          "variables": {
+            "\u003cInput1\u003e": "IAAv7"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.facebook.LoginActivity.onResume()V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@9",
+          "type": "activity",
+          "component": "com.facebook.LoginActivity",
+          "constraintsFile": "constraints0_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "1": {
+      "startMethod": "com.facebook.LoginActivity.onResume()V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.facebook.LoginActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@30",
+          "type": "activity",
+          "component": "com.facebook.LoginActivity",
+          "constraintsFile": "constraints1_0.py",
+          "variables": {
+            "\u003cInput1\u003e": "IAAv7"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.facebook.LoginActivity.onResume()V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@9",
+          "type": "activity",
+          "component": "com.facebook.LoginActivity",
+          "constraintsFile": "constraints1_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "2": {
+      "startMethod": "com.rovio.skynest.socialnetwork.SocialSharingViewWrapper.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.facebook.LoginActivity.onResume()V",
+          "target": "PC@37",
+          "type": "activity",
+          "component": "com.facebook.LoginActivity",
+          "constraintsFile": "constraints2_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.rovio.skynest.socialnetwork.SocialSharingViewWrapper.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@9",
+          "type": "activity",
+          "component": "com.rovio.skynest.socialnetwork.SocialSharingViewWrapper",
+          "constraintsFile": "constraints2_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "3": {
+      "startMethod": "com.rovio.skynest.socialnetwork.SocialSharingViewWrapper.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.facebook.LoginActivity.onResume()V",
+          "target": "PC@37",
+          "type": "activity",
+          "component": "com.facebook.LoginActivity",
+          "constraintsFile": "constraints3_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.rovio.skynest.socialnetwork.SocialSharingViewWrapper.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@9",
+          "type": "activity",
+          "component": "com.rovio.skynest.socialnetwork.SocialSharingViewWrapper",
+          "constraintsFile": "constraints3_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "4": {
+      "startMethod": "com.google.android.gms.ads.AdActivity.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gms.ads.AdActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "PC@13",
+          "type": "activity",
+          "component": "com.google.android.gms.ads.AdActivity"
+        },
+        {
+          "start": "com.google.android.gms.ads.AdActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@353",
+          "type": "activity",
+          "component": "com.google.android.gms.ads.AdActivity",
+          "constraintsFile": "constraints4_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "5": {
+      "startMethod": "com.mopub.mobileads.MraidVideoPlayerActivity.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.mopub.mobileads.MraidVideoPlayerActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@93",
+          "type": "activity",
+          "component": "com.mopub.mobileads.MraidVideoPlayerActivity",
+          "constraintsFile": "constraints5_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "6": {
+      "startMethod": "com.mopub.mobileads.MraidVideoPlayerActivity.onCreate(Landroid/os/Bundle;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.mopub.mobileads.MraidVideoPlayerActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@68",
+          "type": "activity",
+          "component": "com.mopub.mobileads.MraidVideoPlayerActivity",
+          "constraintsFile": "constraints6_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "7": {
+      "startMethod": "com.rovio.skynest.socialnetwork.SocialSharingViewWrapper.onResume()V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.rovio.skynest.socialnetwork.SocialSharingViewWrapper.onResume()V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@9",
+          "type": "activity",
+          "component": "com.rovio.skynest.socialnetwork.SocialSharingViewWrapper",
+          "constraintsFile": "constraints7_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "8": {
+      "startMethod": "com.rovio.skynest.socialnetwork.SocialSharingViewWrapper.onResume()V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.rovio.skynest.socialnetwork.SocialSharingViewWrapper.onResume()V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@9",
+          "type": "activity",
+          "component": "com.rovio.skynest.socialnetwork.SocialSharingViewWrapper",
+          "constraintsFile": "constraints8_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "9": {
+      "startMethod": "com.facebook.widget.ag.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.facebook.widget.ag.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@9",
+          "type": "ui",
+          "activities": [
+            "com.rovio.fusion.App"
+          ],
+          "listener": "com.facebook.widget.ag",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints9_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "10": {
+      "startMethod": "com.facebook.widget.ag.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.facebook.widget.ag.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@9",
+          "type": "ui",
+          "activities": [
+            "com.rovio.fusion.App"
+          ],
+          "listener": "com.facebook.widget.ag",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints10_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "11": {
+      "startMethod": "com.rovio.skynest.IdentityLoginUIScreen$24.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.rovio.skynest.IdentityLoginUIScreen$24.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@32",
+          "type": "ui",
+          "activities": [
+            "com.rovio.fusion.App"
+          ],
+          "listener": "com.rovio.skynest.IdentityLoginUIScreen$24",
+          "listenerMethod": "onClick",
+          "uiType": "onClick"
+        }
+      ]
+    },
+    "12": {
+      "startMethod": "com.rovio.skynest.IdentityLoginUIScreen$22.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.rovio.skynest.IdentityLoginUIScreen$22.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@32",
+          "type": "ui",
+          "activities": [
+            "com.rovio.fusion.App"
+          ],
+          "listener": "com.rovio.skynest.IdentityLoginUIScreen$22",
+          "listenerMethod": "onClick",
+          "uiType": "onClick"
+        }
+      ]
+    },
+    "13": {
+      "startMethod": "com.mopub.mobileads.cr.onClick(Landroid/view/View;)V",
+      "targetMethod": "com.mopub.mobileads.MraidVideoPlayerActivity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.mopub.mobileads.MraidVideoPlayerActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/widget/ImageView, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@193",
+          "type": "activity",
+          "component": "com.mopub.mobileads.MraidVideoPlayerActivity",
+          "constraintsFile": "constraints13_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.mopub.mobileads.cr.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Lcom/mopub/mobileads/MraidVideoPlayerActivity, startActivityForResult(Landroid/content/Intent;I)V \u003e@18",
+          "type": "ui",
+          "activities": [
+            "com.rovio.fusion.App"
+          ],
+          "listener": "com.mopub.mobileads.cr",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints13_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "14": {
+      "startMethod": "com.google.android.gms.dynamic.a$5.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gms.maps.MapFragment.onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
+          "target": "invokevirtual \u003c Application, Landroid/widget/Button, setOnClickListener(Landroid/view/View$OnClickListener;)V \u003e@199",
+          "type": "",
+          "constraintsFile": "constraints14_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.gms.dynamic.a$5.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@31",
+          "type": "ui",
+          "activities": [
+            "com.rovio.fusion.App"
+          ],
+          "listener": "com.google.android.gms.dynamic.a$5",
+          "listenerMethod": "onClick",
+          "uiType": "onClick"
+        }
+      ]
+    },
+    "15": {
+      "startMethod": "com.google.android.gms.plus.PlusOneButton$DefaultOnPlusOneClickListener.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gms.plus.PlusOneButton$DefaultOnPlusOneClickListener.\u003cinit\u003e(Lcom/google/android/gms/plus/PlusOneButton;Lcom/google/android/gms/plus/PlusOneButton$OnPlusOneClickListener;)V",
+          "target": "PC@12",
+          "type": "",
+          "constraintsFile": "constraints15_0.py",
+          "variables": {
+            "\u003cInput2\u003e": "IAAv2"
+          },
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.gms.plus.PlusOneButton$DefaultOnPlusOneClickListener.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@42",
+          "type": "ui",
+          "activities": [
+            "com.rovio.fusion.App"
+          ],
+          "listener": "com.google.android.gms.plus.PlusOneButton$DefaultOnPlusOneClickListener",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints15_1.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "16": {
+      "startMethod": "com.mopub.nativeads.x.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.mopub.nativeads.x.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@68",
+          "type": "ui",
+          "activities": [
+            "com.rovio.fusion.App"
+          ],
+          "listener": "com.mopub.nativeads.x",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints16_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "17": {
+      "startMethod": "com.mopub.nativeads.x.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.mopub.nativeads.x.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@93",
+          "type": "ui",
+          "activities": [
+            "com.rovio.fusion.App"
+          ],
+          "listener": "com.mopub.nativeads.x",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "constraintsFile": "constraints17_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "18": {
+      "startMethod": "com.rovio.skynest.IdentityLoginUIScreen$23.onClick(Landroid/view/View;)V",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.rovio.skynest.IdentityLoginUIScreen$23.onClick(Landroid/view/View;)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@32",
+          "type": "ui",
+          "activities": [
+            "com.rovio.fusion.App"
+          ],
+          "listener": "com.rovio.skynest.IdentityLoginUIScreen$23",
+          "listenerMethod": "onClick",
+          "uiType": "onClick"
+        }
+      ]
+    },
+    "19": {
+      "startMethod": "com.mopub.mobileads.cq.onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z",
+      "targetMethod": "com.mopub.mobileads.MraidVideoPlayerActivity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.mopub.mobileads.MraidVideoPlayerActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Landroid/widget/VideoView, setOnTouchListener(Landroid/view/View$OnTouchListener;)V \u003e@31",
+          "type": "activity",
+          "component": "com.mopub.mobileads.MraidVideoPlayerActivity"
+        },
+        {
+          "start": "com.mopub.mobileads.cq.onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z",
+          "target": "invokevirtual \u003c Application, Lcom/mopub/mobileads/MraidVideoPlayerActivity, startActivityForResult(Landroid/content/Intent;I)V \u003e@18",
+          "type": "ui",
+          "activities": [
+            "com.rovio.fusion.App"
+          ],
+          "listener": "com.mopub.mobileads.cq",
+          "listenerMethod": "onTouch",
+          "uiType": "onTouch",
+          "constraintsFile": "constraints19_0.py",
+          "variables": {
+            "\u003cChainedInput2\u003e.getAction()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "20": {
+      "startMethod": "com.mopub.mobileads.cg.onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.mopub.mobileads.MoPubActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/mopub/mobileads/MraidView, setOnTouchListener(Landroid/view/View$OnTouchListener;)V \u003e@34",
+          "type": "activity",
+          "component": "com.mopub.mobileads.MoPubActivity"
+        },
+        {
+          "start": "com.mopub.mobileads.cg.onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@51",
+          "type": "ui",
+          "activities": [
+            "com.rovio.fusion.App"
+          ],
+          "listener": "com.mopub.mobileads.cg",
+          "listenerMethod": "onTouch",
+          "uiType": "onTouch",
+          "constraintsFile": "constraints20_0.py",
+          "variables": {
+            "\u003cChainedInput2\u003e.getAction()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "21": {
+      "startMethod": "com.mopub.mobileads.n.onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.mopub.mobileads.MoPubActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/mopub/mobileads/BaseHtmlWebView, setOnTouchListener(Landroid/view/View$OnTouchListener;)V \u003e@13",
+          "type": "activity",
+          "component": "com.mopub.mobileads.MoPubActivity"
+        },
+        {
+          "start": "com.mopub.mobileads.n.onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@51",
+          "type": "ui",
+          "activities": [
+            "com.rovio.fusion.App"
+          ],
+          "listener": "com.mopub.mobileads.n",
+          "listenerMethod": "onTouch",
+          "uiType": "onTouch",
+          "constraintsFile": "constraints21_0.py",
+          "variables": {
+            "\u003cChainedInput2\u003e.getAction()": "IAAv0"
+          },
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    },
+    "22": {
+      "startMethod": "com.google.android.gms.internal.dd.onDownloadStart(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V",
+      "targetMethod": "android.content.Context.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gms.ads.AdActivity.onCreate(Landroid/os/Bundle;)V",
+          "target": "invokevirtual \u003c Application, Lcom/google/android/gms/internal/dd, setDownloadListener(Landroid/webkit/DownloadListener;)V \u003e@145",
+          "type": "activity",
+          "component": "com.google.android.gms.ads.AdActivity",
+          "constraintsFile": "constraints22_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        },
+        {
+          "start": "com.google.android.gms.internal.dd.onDownloadStart(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V",
+          "target": "invokevirtual \u003c Application, Landroid/content/Context, startActivity(Landroid/content/Intent;)V \u003e@43",
+          "type": ""
+        }
+      ]
+    },
+    "23": {
+      "startMethod": "com.sina.weibo.sdk.utils.a.onClick(Landroid/content/DialogInterface;I)V",
+      "targetMethod": "android.app.Activity.startActivity(Landroid/content/Intent;)V",
+      "eventChain": [
+        {
+          "start": "com.sina.weibo.sdk.utils.a.onClick(Landroid/content/DialogInterface;I)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivity(Landroid/content/Intent;)V \u003e@43",
+          "type": "ui",
+          "activities": [
+            "com.rovio.fusion.App"
+          ],
+          "listener": "com.sina.weibo.sdk.utils.a",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "inDialog": "true"
+        }
+      ]
+    },
+    "24": {
+      "startMethod": "com.google.android.gms.internal.ef.onClick(Landroid/content/DialogInterface;I)V",
+      "targetMethod": "android.app.Activity.startActivityForResult(Landroid/content/Intent;I)V",
+      "eventChain": [
+        {
+          "start": "com.google.android.gms.internal.ef.onClick(Landroid/content/DialogInterface;I)V",
+          "target": "invokevirtual \u003c Application, Landroid/app/Activity, startActivityForResult(Landroid/content/Intent;I)V \u003e@32",
+          "type": "ui",
+          "activities": [
+            "com.rovio.fusion.App"
+          ],
+          "listener": "com.google.android.gms.internal.ef",
+          "listenerMethod": "onClick",
+          "uiType": "onClick",
+          "inDialog": "true",
+          "constraintsFile": "constraints24_0.py",
+          "variables": {},
+          "stringMap": {},
+          "strings": {}
+        }
+      ]
+    }
+  }
+}
