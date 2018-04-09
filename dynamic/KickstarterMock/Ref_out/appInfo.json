@@ -1,0 +1,276 @@
+{
+  "packageName": "com.kickstarter.kickstarter.internal",
+  "mainActivity": "com.kickstarter.ui.activities.SettingsActivity",
+  "callPaths": {
+    "0": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.contactClick()V",
+      "targetMethod": "com.kickstarter.ui.activities.SettingsActivity.markExplore(I)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.contactClick()V",
+          "target": "invokestatic \u003c Application, Lcom/kickstarter/ui/activities/SettingsActivity, markExplore(I)V \u003e@4",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.SettingsActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "contactClick",
+          "uiType": "onClick",
+          "viewId": 2131821211
+        }
+      ]
+    },
+    "1": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.manageProjectNotifications()V",
+      "targetMethod": "com.kickstarter.ui.activities.SettingsActivity.markExplore(I)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.manageProjectNotifications()V",
+          "target": "invokestatic \u003c Application, Lcom/kickstarter/ui/activities/SettingsActivity, markExplore(I)V \u003e@4",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.SettingsActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "manageProjectNotifications",
+          "uiType": "onClick",
+          "viewId": 2131821199
+        }
+      ]
+    },
+    "2": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.toggleNotifyMobileOfNewFollowers()V",
+      "targetMethod": "com.kickstarter.ui.activities.SettingsActivity.markExplore(I)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.toggleNotifyMobileOfNewFollowers()V",
+          "target": "invokestatic \u003c Application, Lcom/kickstarter/ui/activities/SettingsActivity, markExplore(I)V \u003e@5",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.SettingsActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "toggleNotifyMobileOfNewFollowers",
+          "uiType": "onClick",
+          "viewId": 2131821203
+        }
+      ]
+    },
+    "3": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.toggleNotifyOfUpdates()V",
+      "targetMethod": "com.kickstarter.ui.activities.SettingsActivity.markExplore(I)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.toggleNotifyOfUpdates()V",
+          "target": "invokestatic \u003c Application, Lcom/kickstarter/ui/activities/SettingsActivity, markExplore(I)V \u003e@5",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.SettingsActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "toggleNotifyOfUpdates",
+          "uiType": "onClick",
+          "viewId": 2131821197
+        }
+      ]
+    },
+    "4": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.toggleNotifyMobileOfFriendActivity()V",
+      "targetMethod": "com.kickstarter.ui.activities.SettingsActivity.markExplore(I)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.toggleNotifyMobileOfFriendActivity()V",
+          "target": "invokestatic \u003c Application, Lcom/kickstarter/ui/activities/SettingsActivity, markExplore(I)V \u003e@5",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.SettingsActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "toggleNotifyMobileOfFriendActivity",
+          "uiType": "onClick",
+          "viewId": 2131821205
+        }
+      ]
+    },
+    "5": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.toggleNotifyOfNewFollowers()V",
+      "targetMethod": "com.kickstarter.ui.activities.SettingsActivity.markExplore(I)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.toggleNotifyOfNewFollowers()V",
+          "target": "invokestatic \u003c Application, Lcom/kickstarter/ui/activities/SettingsActivity, markExplore(I)V \u003e@5",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.SettingsActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "toggleNotifyOfNewFollowers",
+          "uiType": "onClick",
+          "viewId": 2131821202
+        }
+      ]
+    },
+    "6": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.privacyPolicyClick()V",
+      "targetMethod": "com.kickstarter.ui.activities.SettingsActivity.markExplore(I)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.privacyPolicyClick()V",
+          "target": "invokestatic \u003c Application, Lcom/kickstarter/ui/activities/SettingsActivity, markExplore(I)V \u003e@5",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.SettingsActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "privacyPolicyClick",
+          "uiType": "onClick",
+          "viewId": 2131821214
+        }
+      ]
+    },
+    "7": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.faqClick()V",
+      "targetMethod": "com.kickstarter.ui.activities.SettingsActivity.markExplore(I)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.faqClick()V",
+          "target": "invokestatic \u003c Application, Lcom/kickstarter/ui/activities/SettingsActivity, markExplore(I)V \u003e@4",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.SettingsActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "faqClick",
+          "uiType": "onClick",
+          "viewId": 2131821210
+        }
+      ]
+    },
+    "8": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.toggleNotifyOfFriendActivity()V",
+      "targetMethod": "com.kickstarter.ui.activities.SettingsActivity.markExplore(I)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.toggleNotifyOfFriendActivity()V",
+          "target": "invokestatic \u003c Application, Lcom/kickstarter/ui/activities/SettingsActivity, markExplore(I)V \u003e@5",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.SettingsActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "toggleNotifyOfFriendActivity",
+          "uiType": "onClick",
+          "viewId": 2131821204
+        }
+      ]
+    },
+    "9": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.logoutClick()V",
+      "targetMethod": "com.kickstarter.ui.activities.SettingsActivity.markExplore(I)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.logoutClick()V",
+          "target": "invokestatic \u003c Application, Lcom/kickstarter/ui/activities/SettingsActivity, markExplore(I)V \u003e@4",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.SettingsActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "logoutClick",
+          "uiType": "onClick",
+          "viewId": 2131821217
+        }
+      ]
+    },
+    "10": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.cookiePolicyClick()V",
+      "targetMethod": "com.kickstarter.ui.activities.SettingsActivity.markExplore(I)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.cookiePolicyClick()V",
+          "target": "invokestatic \u003c Application, Lcom/kickstarter/ui/activities/SettingsActivity, markExplore(I)V \u003e@4",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.SettingsActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "cookiePolicyClick",
+          "uiType": "onClick",
+          "viewId": 2131821215
+        }
+      ]
+    },
+    "11": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.rateUsClick()V",
+      "targetMethod": "com.kickstarter.ui.activities.SettingsActivity.markExplore(I)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.rateUsClick()V",
+          "target": "invokestatic \u003c Application, Lcom/kickstarter/ui/activities/SettingsActivity, markExplore(I)V \u003e@5",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.SettingsActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "rateUsClick",
+          "uiType": "onClick",
+          "viewId": 2131821216
+        }
+      ]
+    },
+    "12": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.howKickstarterWorksClick()V",
+      "targetMethod": "com.kickstarter.ui.activities.SettingsActivity.markExplore(I)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.howKickstarterWorksClick()V",
+          "target": "invokestatic \u003c Application, Lcom/kickstarter/ui/activities/SettingsActivity, markExplore(I)V \u003e@4",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.SettingsActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "howKickstarterWorksClick",
+          "uiType": "onClick",
+          "viewId": 2131821212
+        }
+      ]
+    },
+    "13": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.termsOfUseClick()V",
+      "targetMethod": "com.kickstarter.ui.activities.SettingsActivity.markExplore(I)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.termsOfUseClick()V",
+          "target": "invokestatic \u003c Application, Lcom/kickstarter/ui/activities/SettingsActivity, markExplore(I)V \u003e@5",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.SettingsActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "termsOfUseClick",
+          "uiType": "onClick",
+          "viewId": 2131821213
+        }
+      ]
+    },
+    "14": {
+      "startMethod": "com.kickstarter.ui.activities.SettingsActivity.toggleNotifyMobileOfUpdates()V",
+      "targetMethod": "com.kickstarter.ui.activities.SettingsActivity.markExplore(I)V",
+      "eventChain": [
+        {
+          "start": "com.kickstarter.ui.activities.SettingsActivity.toggleNotifyMobileOfUpdates()V",
+          "target": "invokestatic \u003c Application, Lcom/kickstarter/ui/activities/SettingsActivity, markExplore(I)V \u003e@5",
+          "type": "ui",
+          "activities": [
+            "com.kickstarter.ui.activities.SettingsActivity"
+          ],
+          "listener": "com.kickstarter.ui.activities.SettingsActivity",
+          "listenerMethod": "toggleNotifyMobileOfUpdates",
+          "uiType": "onClick",
+          "viewId": 2131821198
+        }
+      ]
+    }
+  }
+}
